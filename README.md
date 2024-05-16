@@ -8,4 +8,4 @@ by Stavros Mougiakakos and [Pierre Vanhove](https://pierrevanhove.github.io/)
 
 - A `Mathematica` worksheet detailling the recursion : [Recursion.nb](https://github.com/pierrevanhove/Metric/blob/main/Recursion.nb)
 
-- The form factor coefficients up to 89 loops [listsolutions-90.txt](https://github.com/pierrevanhove/Metric/blob/main/listsolutions-90.txt) :warning: This is a big file *15.5 MB*
+- The form factor coefficients up to 89 loops [listsolutions-90.txt](https://github.com/pierrevanhove/Metric/blob/main/listsolutions-90.txt) :warning: This is a big file **15.5 MB**

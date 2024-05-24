@@ -1,8 +1,8 @@
 The repository contains supplementary files for the following paper
 
-# Schwarzschild metric from Scattering Amplitudes to all orders in $G_N$
+# Schwarzschild metric from Scattering Amplitudes to all orders in $G_N$ [arXiv:2405.14421](https://arxiv.org/abs/2405.14421)
 
-by Stavros Mougiakakos and [Pierre Vanhove](https://pierrevanhove.github.io/)
+by  [Stavros Mougiakakos](https://inspirehep.net/authors/1771813?ui-citation-summary=true") and [Pierre Vanhove](https://pierrevanhove.github.io/)
 
 - the recursion relation between the form factors in the file [Recursion.txt](https://github.com/pierrevanhove/Metric/blob/main/Recursion.txt)
 

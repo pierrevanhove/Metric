@@ -1,582 +1,566 @@
 \[Chi]Recursion[l_] = 
     {Sum[(2*((-3 + 2*d)*(-1 + l)*l - 2*(-2 + d)*l*m + 2*(-2 + d)*m^2)*
-          \[Alpha][l - m]*\[Alpha][m] - 2*((-3 + d)*(-1 + l)*l - 
-           (2 + (-5 + d)*l)*m + (-3 + d)*m^2)*\[Alpha][m]*\[Beta][l - m] + 
+          Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 1][m] - 2*((-3 + d)*(-1 + l)*l - 
+           (2 + (-5 + d)*l)*m + (-3 + d)*m^2)*Subscript[\[Chi], 1][m]*Subscript[\[Chi], 2][l - m] + 
          (2*((d*(-1 + l) - 2*l)*(-1 + l)*l + 
             (-1 + l*(-5 + (-6 + d)*d*(-1 + l) + 8*l))*m - 
-            (-4 + d)*(1 + d*(-1 + l) - 2*l)*m^2 - (-2 + d)*m^3)*\[Alpha][m]*
-           \[Gamma][l - m])/(-2*l + d*(-1 + l - m) + 2*m) - 
-         2*\[Alpha][l - m]*(((-1 + d)*(-1 + l)*l + (2 + l - d*l)*m + 
-             (-3 + d)*m^2)*\[Beta][m] - 
+            (-4 + d)*(1 + d*(-1 + l) - 2*l)*m^2 - (-2 + d)*m^3)*Subscript[\[Chi], 1][m]*
+           Subscript[\[Chi], 3][l - m])/(-2*l + d*(-1 + l - m) + 2*m) - 
+         2*Subscript[\[Chi], 1][l - m]*(((-1 + d)*(-1 + l)*l + (2 + l - d*l)*m + 
+             (-3 + d)*m^2)*Subscript[\[Chi], 2][m] - 
            ((m + (-1 + d)*l^2*(-1 + (-2 + d)*m) - (-1 + d)*l*(1 + m)*(-1 + 
-                (-2 + d)*m) + m^2*(4 - 2*m + d*(-5 + d + m)))*\[Gamma][m])/
-            (d*(-1 + m) - 2*m)) + 8*(-1 + d)*(-1 + m)*m*\[Beta][l - m]*
-          \[Lambda][m] + (8*m*(2*(l - m)*(d + 2*l - d*l + (-2 + d)*m)*
-             \[Beta][l - m] + (-1 + d + (-2 + d)^2*(l - m)^2 + m - d*m + 
-              (l - m)*(-1 + (-3 + d)*d*(-1 + m) + 2*m))*\[Gamma][l - m])*
-           \[Rho][m])/(-2*l + d*(-1 + l - m) + 2*m) + 8*m*\[Alpha][l - m]*
-          ((-1 + d + m - d*m)*\[Lambda][m] + (-1 + d)*(-1 + m)*\[Mu][m] + 
-           (1 - d + l + (-2 + d)*m)*\[Rho][m] - (-1 + d)*(-1 + m)*
-            \[Sigma][m]) - 8*(-1 + d)*(l - m)*m*((-\[Lambda][m] + \[Mu][m])*
-            \[Rho][l - m] + \[Mu][l - m]*\[Rho][m] + \[Lambda][m]*
-            \[Sigma][l - m] + \[Lambda][l - m]*(-\[Rho][m] + \[Sigma][m])) - 
+                (-2 + d)*m) + m^2*(4 - 2*m + d*(-5 + d + m)))*Subscript[\[Chi], 3][m])/
+            (d*(-1 + m) - 2*m)) + 8*(-1 + d)*(-1 + m)*m*Subscript[\[Chi], 2][l - m]*
+          Subscript[\[Chi], 4][m] + (8*m*(2*(l - m)*(d + 2*l - d*l + (-2 + d)*m)*
+             Subscript[\[Chi], 2][l - m] + (-1 + d + (-2 + d)^2*(l - m)^2 + m - d*m + 
+              (l - m)*(-1 + (-3 + d)*d*(-1 + m) + 2*m))*Subscript[\[Chi], 3][l - m])*
+           Subscript[\[Chi], 6][m])/(-2*l + d*(-1 + l - m) + 2*m) + 8*m*Subscript[\[Chi], 1][l - m]*
+          ((-1 + d + m - d*m)*Subscript[\[Chi], 4][m] + (-1 + d)*(-1 + m)*Subscript[\[Chi], 5][m] + 
+           (1 - d + l + (-2 + d)*m)*Subscript[\[Chi], 6][m] - (-1 + d)*(-1 + m)*
+            Subscript[\[Chi], 7][m]) - 8*(-1 + d)*(l - m)*m*((-Subscript[\[Chi], 4][m] + Subscript[\[Chi], 5][m])*
+            Subscript[\[Chi], 6][l - m] + Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] + Subscript[\[Chi], 4][m]*
+            Subscript[\[Chi], 7][l - m] + Subscript[\[Chi], 4][l - m]*(-Subscript[\[Chi], 6][m] + Subscript[\[Chi], 7][m])) - 
          (2*d*(1 - m)*m*(2 - (-2 + d)*m)*(2 + (-2 + d)*m)*(d + 2*m - d*m)*
-            (2*\[Alpha][m]*\[Gamma][l - m] - ((3 + d)*\[Gamma][l - m]*(
-                2*\[Beta][m] + \[Gamma][m]))/2 - 4*(-1 + d)*\[Gamma][l - m]*
-              (2*(\[Mu][m] + \[Sigma][m]) + \[Tau][m]) - 2*(-1 + d)*
-              \[Tau][l - m]*(2*(\[Mu][m] + \[Sigma][m]) + \[Tau][m])) + 
+            (2*Subscript[\[Chi], 1][m]*Subscript[\[Chi], 3][l - m] - ((3 + d)*Subscript[\[Chi], 3][l - m]*(
+                2*Subscript[\[Chi], 2][m] + Subscript[\[Chi], 3][m]))/2 - 4*(-1 + d)*Subscript[\[Chi], 3][l - m]*
+              (2*(Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m]) + Subscript[\[Chi], 8][m]) - 2*(-1 + d)*
+              Subscript[\[Chi], 8][l - m]*(2*(Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m]) + Subscript[\[Chi], 8][m])) + 
            d*(-1 + l - m)*(l - m)*(-2*l + d*(-1 + l - m) + 2*m)*
             (2 + (-2 + d)*l - (-2 + d)*m)*(-2 + (-2 + d)*m)*
-            ((3 + d)*(2*\[Beta][l - m] + \[Gamma][l - m])*\[Gamma][m] + 
-             4*(4*\[Beta][l - m] + 2*\[Gamma][l - m] + (-1 + d)*
-                (2*(\[Mu][l - m] + \[Sigma][l - m]) + \[Tau][l - m]))*
-              \[Tau][m] - 4*\[Alpha][l - m]*(\[Gamma][m] + 2*\[Tau][m])) + 
+            ((3 + d)*(2*Subscript[\[Chi], 2][l - m] + Subscript[\[Chi], 3][l - m])*Subscript[\[Chi], 3][m] + 
+             4*(4*Subscript[\[Chi], 2][l - m] + 2*Subscript[\[Chi], 3][l - m] + (-1 + d)*
+                (2*(Subscript[\[Chi], 5][l - m] + Subscript[\[Chi], 7][l - m]) + Subscript[\[Chi], 8][l - m]))*
+              Subscript[\[Chi], 8][m] - 4*Subscript[\[Chi], 1][l - m]*(Subscript[\[Chi], 3][m] + 2*Subscript[\[Chi], 8][m])) + 
            4*(1 - d)*d*(1 - l)*(2 + (-2 + d)*l)*m*(2 - (-2 + d)*m)*
-            (d + 2*m - d*m)*((-3*\[Beta][m]*\[Gamma][l - m])/2 - 
-             2*\[Tau][l - m]*(\[Mu][m] + \[Sigma][m] + \[Tau][m]) - 
-             \[Gamma][l - m]*(\[Gamma][m] + 8*\[Sigma][m] + 4*\[Tau][m])) + 
+            (d + 2*m - d*m)*((-3*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m])/2 - 
+             2*Subscript[\[Chi], 8][l - m]*(Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m] + Subscript[\[Chi], 8][m]) - 
+             Subscript[\[Chi], 3][l - m]*(Subscript[\[Chi], 3][m] + 8*Subscript[\[Chi], 7][m] + 4*Subscript[\[Chi], 8][m])) + 
            (-1 + d)*d*(d*(-1 + l) - 2*l)*(-1 + l)*l*(2 + (-2 + d)*l)*
-            (-2 + (-2 + d)*m)*(4*\[Tau][l - m]*\[Tau][m] + \[Gamma][l - m]*
-              (3*\[Gamma][m] + 8*\[Tau][m])) + 4*(l - m)*m*(2 - (-2 + d)*m)*
+            (-2 + (-2 + d)*m)*(4*Subscript[\[Chi], 8][l - m]*Subscript[\[Chi], 8][m] + Subscript[\[Chi], 3][l - m]*
+              (3*Subscript[\[Chi], 3][m] + 8*Subscript[\[Chi], 8][m])) + 4*(l - m)*m*(2 - (-2 + d)*m)*
             (d + 2*l - d*l + (-2 + d)*m)*(d + 2*m - d*m)*
-            (-2*d*\[Alpha][l - m]*\[Beta][m] + 4*d*\[Beta][l - m]*
-              \[Beta][m] + (5*d*\[Beta][m]*\[Gamma][l - m])/2 - 
-             (d^2*\[Beta][m]*\[Gamma][l - m])/2 - d*\[Alpha][m]*
-              ((-2 + d)*\[Alpha][l - m] + 2*\[Beta][l - m] + \[Gamma][
-                l - m]) - d*\[Alpha][l - m]*\[Gamma][m] + 
-             (5*d*\[Beta][l - m]*\[Gamma][m])/2 - (d^2*\[Beta][l - m]*
-               \[Gamma][m])/2 + (3*d*\[Gamma][l - m]*\[Gamma][m])/2 - 
-             (d^2*\[Gamma][l - m]*\[Gamma][m])/2 - 4*\[Mu][l - m]*\[Mu][m] + 
-             8*d*\[Mu][l - m]*\[Mu][m] - 4*d^2*\[Mu][l - m]*\[Mu][m] + 
-             4*\[Mu][m]*\[Rho][l - m] - 4*d*\[Mu][m]*\[Rho][l - m] + 
-             4*\[Mu][l - m]*\[Rho][m] - 4*d*\[Mu][l - m]*\[Rho][m] - 
-             4*\[Rho][l - m]*\[Rho][m] + 8*d*\[Rho][l - m]*\[Rho][m] - 
-             4*d^2*\[Rho][l - m]*\[Rho][m] - 8*\[Mu][m]*\[Sigma][l - m] + 
-             8*d*\[Mu][m]*\[Sigma][l - m] + 8*\[Rho][m]*\[Sigma][l - m] - 
-             8*d*\[Rho][m]*\[Sigma][l - m] - 8*\[Mu][l - m]*\[Sigma][m] + 
-             8*d*\[Mu][l - m]*\[Sigma][m] + 8*\[Rho][l - m]*\[Sigma][m] - 
-             8*d*\[Rho][l - m]*\[Sigma][m] - 16*\[Sigma][l - m]*\[Sigma][m] + 
-             16*d*\[Sigma][l - m]*\[Sigma][m] - 4*\[Mu][l - m]*\[Tau][m] + 
-             6*d*\[Mu][l - m]*\[Tau][m] - 2*d^2*\[Mu][l - m]*\[Tau][m] + 
-             4*\[Rho][l - m]*\[Tau][m] - 4*d*\[Rho][l - m]*\[Tau][m] - 
-             8*\[Sigma][l - m]*\[Tau][m] + 10*d*\[Sigma][l - m]*\[Tau][m] - 
-             2*d^2*\[Sigma][l - m]*\[Tau][m] - 2*d*\[Alpha][l - m]*
-              (2*(-2 + d)*\[Rho][m] + 4*\[Sigma][m] + \[Tau][m]) - 
-             2*d*(2*\[Beta][l - m] + \[Gamma][l - m])*(2*\[Rho][m] - 4*
-                \[Sigma][m] + (-2 + d)*\[Tau][m]) - 2*(-1 + d)*\[Tau][l - m]*
-              ((-2 + d)*\[Mu][m] + 2*\[Rho][m] + (-4 + d)*\[Sigma][m] + 
-               (-2 + d)*\[Tau][m])) + 4*d*(1 - l)*(2 + (-2 + d)*l)*(l - m)*
+            (-2*d*Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 2][m] + 4*d*Subscript[\[Chi], 2][l - m]*
+              Subscript[\[Chi], 2][m] + (5*d*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m])/2 - 
+             (d^2*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m])/2 - d*Subscript[\[Chi], 1][m]*
+              ((-2 + d)*Subscript[\[Chi], 1][l - m] + 2*Subscript[\[Chi], 2][l - m] + Subscript[\[Chi], 3][
+                l - m]) - d*Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 3][m] + 
+             (5*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m])/2 - (d^2*Subscript[\[Chi], 2][l - m]*
+               Subscript[\[Chi], 3][m])/2 + (3*d*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/2 - 
+             (d^2*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/2 - 4*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] + 
+             8*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] - 4*d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] + 
+             4*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 6][l - m] - 4*d*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 6][l - m] + 
+             4*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 4*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 
+             4*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] + 8*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] - 
+             4*d^2*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] - 8*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 
+             8*d*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 8*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][l - m] - 
+             8*d*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][l - m] - 8*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 
+             8*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 8*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 7][m] - 
+             8*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 7][m] - 16*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 7][m] + 
+             16*d*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 7][m] - 4*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 8][m] + 
+             6*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 8][m] - 2*d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 8][m] + 
+             4*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 8][m] - 4*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 8][m] - 
+             8*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 8][m] + 10*d*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 8][m] - 
+             2*d^2*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 8][m] - 2*d*Subscript[\[Chi], 1][l - m]*
+              (2*(-2 + d)*Subscript[\[Chi], 6][m] + 4*Subscript[\[Chi], 7][m] + Subscript[\[Chi], 8][m]) - 
+             2*d*(2*Subscript[\[Chi], 2][l - m] + Subscript[\[Chi], 3][l - m])*(2*Subscript[\[Chi], 6][m] - 4*
+                Subscript[\[Chi], 7][m] + (-2 + d)*Subscript[\[Chi], 8][m]) - 2*(-1 + d)*Subscript[\[Chi], 8][l - m]*
+              ((-2 + d)*Subscript[\[Chi], 5][m] + 2*Subscript[\[Chi], 6][m] + (-4 + d)*Subscript[\[Chi], 7][m] + 
+               (-2 + d)*Subscript[\[Chi], 8][m])) + 4*d*(1 - l)*(2 + (-2 + d)*l)*(l - m)*
             (2 - (-2 + d)*m)*(d + 2*l - d*l + (-2 + d)*m)*
-            (-2*(\[Alpha][l - m] - (-1 + d)*(\[Mu][l - m] + \[Sigma][l - m] + 
-                 \[Tau][l - m]))*\[Tau][m] + (\[Beta][l - m]*(3*(-1 + d)*
-                 \[Gamma][m] + 8*\[Tau][m]))/2 + \[Gamma][l - m]*
-              ((-1 + d)*\[Gamma][m] + 2*d*\[Tau][m])))/(2*d*(2 + (-2 + d)*l)*
+            (-2*(Subscript[\[Chi], 1][l - m] - (-1 + d)*(Subscript[\[Chi], 5][l - m] + Subscript[\[Chi], 7][l - m] + 
+                 Subscript[\[Chi], 8][l - m]))*Subscript[\[Chi], 8][m] + (Subscript[\[Chi], 2][l - m]*(3*(-1 + d)*
+                 Subscript[\[Chi], 3][m] + 8*Subscript[\[Chi], 8][m]))/2 + Subscript[\[Chi], 3][l - m]*
+              ((-1 + d)*Subscript[\[Chi], 3][m] + 2*d*Subscript[\[Chi], 8][m])))/(2*d*(2 + (-2 + d)*l)*
            (d*(-1 + m) - 2*m)*(-2*l + d*(-1 + l - m) + 2*m)*
            (-2 + (-2 + d)*m)))/(4*(-1 + d)*(-1 + l)*l), {m, 2, -2 + l}] + 
-      (2*(2*(4 + 2*d*(-1 + l) - 3*l)*\[Alpha][-1 + l] + 
-         2*(-5 + d + 3*l - d*l)*\[Beta][-1 + l] + 
+      (2*(2*(4 + 2*d*(-1 + l) - 3*l)*Subscript[\[Chi], 1][-1 + l] + 
+         2*(-5 + d + 3*l - d*l)*Subscript[\[Chi], 2][-1 + l] + 
          (2*(-5 + d^2*(-1 + l) + d*(-6 + l)*(-1 + l) - 2*(-4 + l)*l)*
-           \[Gamma][-1 + l])/(2 + d*(-2 + l) - 2*l) - 
-         ((-2 + d)*\[Alpha][-1 + l] + 2*\[Beta][-1 + l] + \[Gamma][-1 + l])/
-          (2 + (-2 + d)*l) + 4*(-((-1 + d)*(-2 + l)*\[Lambda][-1 + l]) + 
-           (-1 + d)*(-2 + l)*\[Mu][-1 + l] + (1 + (-1 + d)*(-2 + l))*
-            \[Rho][-1 + l] - (-1 + d)*(-2 + l)*\[Sigma][-1 + l]) - 
-         ((-2 + d)*\[Alpha][-1 + l] + 2*\[Beta][-1 + l] + \[Gamma][-1 + l] + 
-           4*(-2 + d)*\[Rho][-1 + l] + 8*\[Sigma][-1 + l] + 
-           (4*(-2 + d)*(-1 + l)*\[Tau][-1 + l])/(2 + d*(-2 + l) - 2*l))/
+           Subscript[\[Chi], 3][-1 + l])/(2 + d*(-2 + l) - 2*l) - 
+         ((-2 + d)*Subscript[\[Chi], 1][-1 + l] + 2*Subscript[\[Chi], 2][-1 + l] + Subscript[\[Chi], 3][-1 + l])/
+          (2 + (-2 + d)*l) + 4*(-((-1 + d)*(-2 + l)*Subscript[\[Chi], 4][-1 + l]) + 
+           (-1 + d)*(-2 + l)*Subscript[\[Chi], 5][-1 + l] + (1 + (-1 + d)*(-2 + l))*
+            Subscript[\[Chi], 6][-1 + l] - (-1 + d)*(-2 + l)*Subscript[\[Chi], 7][-1 + l]) - 
+         ((-2 + d)*Subscript[\[Chi], 1][-1 + l] + 2*Subscript[\[Chi], 2][-1 + l] + Subscript[\[Chi], 3][-1 + l] + 
+           4*(-2 + d)*Subscript[\[Chi], 6][-1 + l] + 8*Subscript[\[Chi], 7][-1 + l] + 
+           (4*(-2 + d)*(-1 + l)*Subscript[\[Chi], 8][-1 + l])/(2 + d*(-2 + l) - 2*l))/
           (2 + (-2 + d)*l)))/((-1 + d)*l), 
-     Sum[((-8*(l - m)*(-1 + l + m)*\[Beta][m]*\[Gamma][l - m])/l + 
+     Sum[((-8*(l - m)*(-1 + l + m)*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m])/l + 
          ((-1 + l - m)*(-1 + m)*(((-1 + d)*d*(d*(-1 + l) - 2*l)*(-1 + l)*
-              (-2 + (-2 + d)*l)*(\[Gamma][l - m]*\[Gamma][m] - 12*
-                \[Tau][l - m]*\[Tau][m]))/((d*(-1 + m) - 2*m)*(-1 + l - m)*
+              (-2 + (-2 + d)*l)*(Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m] - 12*
+                Subscript[\[Chi], 8][l - m]*Subscript[\[Chi], 8][m]))/((d*(-1 + m) - 2*m)*(-1 + l - m)*
               (-1 + m)*(-2 + (-2 + d)*m)) + ((-1 + d)*d*(d*(-1 + l) - 2*l)*
-              (-1 + l)*(-2 + (-2 + d)*l)*(\[Gamma][l - m]*(\[Gamma][m] - 
-                 8*\[Tau][m]) - 12*\[Tau][l - m]*\[Tau][m]))/
+              (-1 + l)*(-2 + (-2 + d)*l)*(Subscript[\[Chi], 3][l - m]*(Subscript[\[Chi], 3][m] - 
+                 8*Subscript[\[Chi], 8][m]) - 12*Subscript[\[Chi], 8][l - m]*Subscript[\[Chi], 8][m]))/
              ((-1 + l - m)*(-1 + m)*(-2*l + d*(-1 + l - m) + 2*m)*
               (-2 + (-2 + d)*l - (-2 + d)*m)) - 
             ((-1 + d)*d*(d*(-1 + l) - 2*l)*(-1 + l)*(-4 + (-2 + d)*l)*
-              (-2 + (-2 + d)*l)*(d*(-1 + l) - 2*(1 + l))*(\[Gamma][l - m]*
-                \[Gamma][m] - 4*\[Tau][l - m]*\[Tau][m]))/((d*(-1 + m) - 2*m)*
+              (-2 + (-2 + d)*l)*(d*(-1 + l) - 2*(1 + l))*(Subscript[\[Chi], 3][l - m]*
+                Subscript[\[Chi], 3][m] - 4*Subscript[\[Chi], 8][l - m]*Subscript[\[Chi], 8][m]))/((d*(-1 + m) - 2*m)*
               (-1 + l - m)*(-1 + m)*(-2*l + d*(-1 + l - m) + 2*m)*
               (-2 + (-2 + d)*l - (-2 + d)*m)*(-2 + (-2 + d)*m)) - 
             ((-1 + d)*d*(2 + (-2 + d)*(l - m))*(l - m)*(4 - 2*l + d*
-                (-1 + l - m) + 2*m)*(\[Gamma][l - m]*\[Gamma][m] + 4*
-                \[Tau][l - m]*\[Tau][m]))/(l*(d*(-1 + m) - 2*m)*(-1 + m)*
+                (-1 + l - m) + 2*m)*(Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m] + 4*
+                Subscript[\[Chi], 8][l - m]*Subscript[\[Chi], 8][m]))/(l*(d*(-1 + m) - 2*m)*(-1 + m)*
               (-2 + (-2 + d)*m)) + ((-2 + d)^2*(-1 + d)*d*(-1 + l)*(l - m)*
-              (\[Gamma][l - m]*\[Gamma][m] + 12*\[Tau][l - m]*\[Tau][m]))/
+              (Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m] + 12*Subscript[\[Chi], 8][l - m]*Subscript[\[Chi], 8][m]))/
              ((d*(-1 + m) - 2*m)*(-1 + m)*(-2 + (-2 + d)*m)) + 
-            (2*(l - m)*(16*d*\[Beta][l - m]*\[Beta][m] - 8*d^2*\[Beta][l - m]*
-                \[Beta][m] + 12*d*\[Beta][m]*\[Gamma][l - m] - 8*d^2*
-                \[Beta][m]*\[Gamma][l - m] + 2*d*\[Alpha][m]*
-                ((-2 + d)*\[Alpha][l - m] + 2*\[Beta][l - m] + \[Gamma][
-                  l - m]) - 4*d*\[Beta][l - m]*\[Gamma][m] - 
-               (d*\[Gamma][l - m]*\[Gamma][m])/2 - (3*d^2*\[Gamma][l - m]*
-                 \[Gamma][m])/2 + 2*d*\[Alpha][l - m]*(-2*\[Beta][m] + 
-                 \[Gamma][m]) - 8*\[Mu][l - m]*\[Mu][m] + 16*d*\[Mu][l - m]*
-                \[Mu][m] - 8*d^2*\[Mu][l - m]*\[Mu][m] + 8*d*\[Lambda][m]*
-                \[Rho][l - m] - 8*d^2*\[Lambda][m]*\[Rho][l - m] + 8*\[Mu][m]*
-                \[Rho][l - m] - 16*d*\[Mu][m]*\[Rho][l - m] + 8*d^2*\[Mu][m]*
-                \[Rho][l - m] + 8*d*\[Lambda][l - m]*\[Rho][m] - 8*d^2*
-                \[Lambda][l - m]*\[Rho][m] + 8*\[Mu][l - m]*\[Rho][m] - 16*d*
-                \[Mu][l - m]*\[Rho][m] + 8*d^2*\[Mu][l - m]*\[Rho][m] - 8*
-                \[Rho][l - m]*\[Rho][m] + 16*d*\[Rho][l - m]*\[Rho][m] - 8*
-                d^2*\[Rho][l - m]*\[Rho][m] - 8*d*\[Lambda][m]*\[Sigma][
-                 l - m] + 8*d^2*\[Lambda][m]*\[Sigma][l - m] - 16*\[Mu][m]*
-                \[Sigma][l - m] + 8*d*\[Mu][m]*\[Sigma][l - m] + 16*d^2*
-                \[Mu][m]*\[Sigma][l - m] - 8*d^3*\[Mu][m]*\[Sigma][l - m] + 
-               16*\[Rho][m]*\[Sigma][l - m] - 16*d*\[Rho][m]*\[Sigma][
-                 l - m] - 16*d*\[Alpha][l - m]*\[Sigma][m] + 32*d*
-                \[Beta][l - m]*\[Sigma][m] - 16*(-2 + d)*d*\[Gamma][l - m]*
-                \[Sigma][m] - 8*d*\[Lambda][l - m]*\[Sigma][m] + 8*d^2*
-                \[Lambda][l - m]*\[Sigma][m] - 16*\[Mu][l - m]*\[Sigma][m] + 
-               8*d*\[Mu][l - m]*\[Sigma][m] + 16*d^2*\[Mu][l - m]*
-                \[Sigma][m] - 8*d^3*\[Mu][l - m]*\[Sigma][m] + 16*
-                \[Rho][l - m]*\[Sigma][m] - 16*d*\[Rho][l - m]*\[Sigma][m] - 
-               32*\[Sigma][l - m]*\[Sigma][m] + 32*d*\[Sigma][l - m]*
-                \[Sigma][m] - 8*(-1 + d)^2*\[Mu][m]*\[Tau][l - m] - 8*
-                (-1 + d)*\[Rho][m]*\[Tau][l - m] - 8*(-2 + d)*(-1 + d)*
-                \[Sigma][m]*\[Tau][l - m] - 2*(-1 + d)*(2*d*\[Gamma][l - m] + 
-                 4*((-1 + d)*\[Mu][l - m] + \[Rho][l - m] + (-2 + d)*
-                    \[Sigma][l - m]) + (-4 + 3*d)*\[Tau][l - m])*\[Tau][m]))/
-             (l*(-1 + m)) - (4*(-1 + l)*(4*d^2*\[Beta][l - m]*\[Beta][m] + 6*
-                d*\[Beta][m]*\[Gamma][l - m] - 4*d^2*\[Beta][m]*
-                \[Gamma][l - m] - d*\[Alpha][m]*((-2 + d)*\[Alpha][l - m] + 
-                 2*\[Beta][l - m] + \[Gamma][l - m]) + 2*d*\[Beta][l - m]*
-                \[Gamma][m] + (3*d*\[Gamma][l - m]*\[Gamma][m])/2 - 
-               (d^2*\[Gamma][l - m]*\[Gamma][m])/2 - d*\[Alpha][l - m]*
-                (2*\[Beta][m] + \[Gamma][m]) - 4*\[Mu][l - m]*\[Mu][m] + 8*d*
-                \[Mu][l - m]*\[Mu][m] - 4*d^2*\[Mu][l - m]*\[Mu][m] + 4*d*
-                \[Lambda][m]*\[Rho][l - m] - 4*d^2*\[Lambda][m]*
-                \[Rho][l - m] + 4*\[Mu][m]*\[Rho][l - m] - 8*d*\[Mu][m]*
-                \[Rho][l - m] + 4*d^2*\[Mu][m]*\[Rho][l - m] + 4*d*
-                \[Lambda][l - m]*\[Rho][m] - 4*d^2*\[Lambda][l - m]*
-                \[Rho][m] + 4*\[Mu][l - m]*\[Rho][m] - 8*d*\[Mu][l - m]*
-                \[Rho][m] + 4*d^2*\[Mu][l - m]*\[Rho][m] - 4*\[Rho][l - m]*
-                \[Rho][m] + 8*d*\[Rho][l - m]*\[Rho][m] - 4*d^2*\[Rho][l - m]*
-                \[Rho][m] - 4*d*\[Lambda][m]*\[Sigma][l - m] + 4*d^2*
-                \[Lambda][m]*\[Sigma][l - m] - 8*\[Mu][m]*\[Sigma][l - m] + 4*
-                d*\[Mu][m]*\[Sigma][l - m] + 8*d^2*\[Mu][m]*\[Sigma][l - m] - 
-               4*d^3*\[Mu][m]*\[Sigma][l - m] + 8*\[Rho][m]*\[Sigma][l - m] - 
-               8*d*\[Rho][m]*\[Sigma][l - m] - 8*d*\[Alpha][l - m]*
-                \[Sigma][m] + 16*d*\[Beta][l - m]*\[Sigma][m] - 8*(-2 + d)*d*
-                \[Gamma][l - m]*\[Sigma][m] - 4*d*\[Lambda][l - m]*
-                \[Sigma][m] + 4*d^2*\[Lambda][l - m]*\[Sigma][m] - 8*
-                \[Mu][l - m]*\[Sigma][m] + 4*d*\[Mu][l - m]*\[Sigma][m] + 8*
-                d^2*\[Mu][l - m]*\[Sigma][m] - 4*d^3*\[Mu][l - m]*
-                \[Sigma][m] + 8*\[Rho][l - m]*\[Sigma][m] - 8*d*\[Rho][l - m]*
-                \[Sigma][m] - 16*\[Sigma][l - m]*\[Sigma][m] + 16*d*
-                \[Sigma][l - m]*\[Sigma][m] - 4*(-1 + d)^2*\[Mu][m]*
-                \[Tau][l - m] - 4*(-1 + d)*\[Rho][m]*\[Tau][l - m] + 8*
-                (-1 + d)*\[Sigma][m]*\[Tau][l - m] - 4*(-1 + d)*d*\[Sigma][m]*
-                \[Tau][l - m] - 2*(-1 + d)*(2*(d*\[Gamma][l - m] + 
-                   (-1 + d)*\[Mu][l - m] + \[Rho][l - m] + (-2 + d)*
-                    \[Sigma][l - m]) + (-2 + 3*d)*\[Tau][l - m])*\[Tau][m]))/
+            (2*(l - m)*(16*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] - 8*d^2*Subscript[\[Chi], 2][l - m]*
+                Subscript[\[Chi], 2][m] + 12*d*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m] - 8*d^2*
+                Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m] + 2*d*Subscript[\[Chi], 1][m]*
+                ((-2 + d)*Subscript[\[Chi], 1][l - m] + 2*Subscript[\[Chi], 2][l - m] + Subscript[\[Chi], 3][
+                  l - m]) - 4*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] - 
+               (d*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/2 - (3*d^2*Subscript[\[Chi], 3][l - m]*
+                 Subscript[\[Chi], 3][m])/2 + 2*d*Subscript[\[Chi], 1][l - m]*(-2*Subscript[\[Chi], 2][m] + 
+                 Subscript[\[Chi], 3][m]) - 8*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] + 16*d*Subscript[\[Chi], 5][l - m]*
+                Subscript[\[Chi], 5][m] - 8*d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] + 8*d*Subscript[\[Chi], 4][m]*
+                Subscript[\[Chi], 6][l - m] - 8*d^2*Subscript[\[Chi], 4][m]*Subscript[\[Chi], 6][l - m] + 8*Subscript[\[Chi], 5][m]*
+                Subscript[\[Chi], 6][l - m] - 16*d*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 6][l - m] + 8*d^2*Subscript[\[Chi], 5][m]*
+                Subscript[\[Chi], 6][l - m] + 8*d*Subscript[\[Chi], 4][l - m]*Subscript[\[Chi], 6][m] - 8*d^2*
+                Subscript[\[Chi], 4][l - m]*Subscript[\[Chi], 6][m] + 8*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 16*d*
+                Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] + 8*d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 8*
+                Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] + 16*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] - 8*
+                d^2*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] - 8*d*Subscript[\[Chi], 4][m]*Subscript[\[Chi], 7][
+                 l - m] + 8*d^2*Subscript[\[Chi], 4][m]*Subscript[\[Chi], 7][l - m] - 16*Subscript[\[Chi], 5][m]*
+                Subscript[\[Chi], 7][l - m] + 8*d*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 16*d^2*
+                Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] - 8*d^3*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 
+               16*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][l - m] - 16*d*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][
+                 l - m] - 16*d*Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 7][m] + 32*d*
+                Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 7][m] - 16*(-2 + d)*d*Subscript[\[Chi], 3][l - m]*
+                Subscript[\[Chi], 7][m] - 8*d*Subscript[\[Chi], 4][l - m]*Subscript[\[Chi], 7][m] + 8*d^2*
+                Subscript[\[Chi], 4][l - m]*Subscript[\[Chi], 7][m] - 16*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 
+               8*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 16*d^2*Subscript[\[Chi], 5][l - m]*
+                Subscript[\[Chi], 7][m] - 8*d^3*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 16*
+                Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 7][m] - 16*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 7][m] - 
+               32*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 7][m] + 32*d*Subscript[\[Chi], 7][l - m]*
+                Subscript[\[Chi], 7][m] - 8*(-1 + d)^2*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 8][l - m] - 8*
+                (-1 + d)*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 8][l - m] - 8*(-2 + d)*(-1 + d)*
+                Subscript[\[Chi], 7][m]*Subscript[\[Chi], 8][l - m] - 2*(-1 + d)*(2*d*Subscript[\[Chi], 3][l - m] + 
+                 4*((-1 + d)*Subscript[\[Chi], 5][l - m] + Subscript[\[Chi], 6][l - m] + (-2 + d)*
+                    Subscript[\[Chi], 7][l - m]) + (-4 + 3*d)*Subscript[\[Chi], 8][l - m])*Subscript[\[Chi], 8][m]))/
+             (l*(-1 + m)) - (4*(-1 + l)*(4*d^2*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] + 6*
+                d*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m] - 4*d^2*Subscript[\[Chi], 2][m]*
+                Subscript[\[Chi], 3][l - m] - d*Subscript[\[Chi], 1][m]*((-2 + d)*Subscript[\[Chi], 1][l - m] + 
+                 2*Subscript[\[Chi], 2][l - m] + Subscript[\[Chi], 3][l - m]) + 2*d*Subscript[\[Chi], 2][l - m]*
+                Subscript[\[Chi], 3][m] + (3*d*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/2 - 
+               (d^2*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/2 - d*Subscript[\[Chi], 1][l - m]*
+                (2*Subscript[\[Chi], 2][m] + Subscript[\[Chi], 3][m]) - 4*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] + 8*d*
+                Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] - 4*d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] + 4*d*
+                Subscript[\[Chi], 4][m]*Subscript[\[Chi], 6][l - m] - 4*d^2*Subscript[\[Chi], 4][m]*
+                Subscript[\[Chi], 6][l - m] + 4*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 6][l - m] - 8*d*Subscript[\[Chi], 5][m]*
+                Subscript[\[Chi], 6][l - m] + 4*d^2*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 6][l - m] + 4*d*
+                Subscript[\[Chi], 4][l - m]*Subscript[\[Chi], 6][m] - 4*d^2*Subscript[\[Chi], 4][l - m]*
+                Subscript[\[Chi], 6][m] + 4*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 8*d*Subscript[\[Chi], 5][l - m]*
+                Subscript[\[Chi], 6][m] + 4*d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 4*Subscript[\[Chi], 6][l - m]*
+                Subscript[\[Chi], 6][m] + 8*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] - 4*d^2*Subscript[\[Chi], 6][l - m]*
+                Subscript[\[Chi], 6][m] - 4*d*Subscript[\[Chi], 4][m]*Subscript[\[Chi], 7][l - m] + 4*d^2*
+                Subscript[\[Chi], 4][m]*Subscript[\[Chi], 7][l - m] - 8*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 4*
+                d*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 8*d^2*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] - 
+               4*d^3*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 8*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][l - m] - 
+               8*d*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][l - m] - 8*d*Subscript[\[Chi], 1][l - m]*
+                Subscript[\[Chi], 7][m] + 16*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 7][m] - 8*(-2 + d)*d*
+                Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 7][m] - 4*d*Subscript[\[Chi], 4][l - m]*
+                Subscript[\[Chi], 7][m] + 4*d^2*Subscript[\[Chi], 4][l - m]*Subscript[\[Chi], 7][m] - 8*
+                Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 4*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 8*
+                d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] - 4*d^3*Subscript[\[Chi], 5][l - m]*
+                Subscript[\[Chi], 7][m] + 8*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 7][m] - 8*d*Subscript[\[Chi], 6][l - m]*
+                Subscript[\[Chi], 7][m] - 16*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 7][m] + 16*d*
+                Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 7][m] - 4*(-1 + d)^2*Subscript[\[Chi], 5][m]*
+                Subscript[\[Chi], 8][l - m] - 4*(-1 + d)*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 8][l - m] + 8*
+                (-1 + d)*Subscript[\[Chi], 7][m]*Subscript[\[Chi], 8][l - m] - 4*(-1 + d)*d*Subscript[\[Chi], 7][m]*
+                Subscript[\[Chi], 8][l - m] - 2*(-1 + d)*(2*(d*Subscript[\[Chi], 3][l - m] + 
+                   (-1 + d)*Subscript[\[Chi], 5][l - m] + Subscript[\[Chi], 6][l - m] + (-2 + d)*
+                    Subscript[\[Chi], 7][l - m]) + (-2 + 3*d)*Subscript[\[Chi], 8][l - m])*Subscript[\[Chi], 8][m]))/
              ((-1 + l - m)*(-1 + m)) - ((-1 + d)*d*(4 + d*(-1 + m) - 2*m)*m*
-              (2 + (-2 + d)*m)*(4*\[Tau][l - m]*\[Tau][m] + \[Gamma][l - m]*
-                (\[Gamma][m] + 8*\[Tau][m])))/(l*(-1 + l - m)*
+              (2 + (-2 + d)*m)*(4*Subscript[\[Chi], 8][l - m]*Subscript[\[Chi], 8][m] + Subscript[\[Chi], 3][l - m]*
+                (Subscript[\[Chi], 3][m] + 8*Subscript[\[Chi], 8][m])))/(l*(-1 + l - m)*
               (-2*l + d*(-1 + l - m) + 2*m)*(-2 + (-2 + d)*l - (-2 + d)*m)) + 
-            ((-2 + d)^2*(-1 + d)*d*(-1 + l)*m*(12*\[Tau][l - m]*\[Tau][m] + 
-               \[Gamma][l - m]*(\[Gamma][m] + 16*\[Tau][m])))/
+            ((-2 + d)^2*(-1 + d)*d*(-1 + l)*m*(12*Subscript[\[Chi], 8][l - m]*Subscript[\[Chi], 8][m] + 
+               Subscript[\[Chi], 3][l - m]*(Subscript[\[Chi], 3][m] + 16*Subscript[\[Chi], 8][m])))/
              ((-1 + l - m)*(-2*l + d*(-1 + l - m) + 2*m)*(-2 + (-2 + d)*l - 
-               (-2 + d)*m)) + (2*m*(16*d*\[Beta][l - m]*\[Beta][m] - 8*d^2*
-                \[Beta][l - m]*\[Beta][m] + 4*d*\[Beta][m]*\[Gamma][l - m] - 
-               8*d^2*\[Beta][m]*\[Gamma][l - m] + 2*d*\[Alpha][m]*
-                ((-2 + d)*\[Alpha][l - m] - 2*\[Beta][l - m] + \[Gamma][
-                  l - m]) + 12*d*\[Beta][l - m]*\[Gamma][m] - 8*d^2*
-                \[Beta][l - m]*\[Gamma][m] - (d*\[Gamma][l - m]*\[Gamma][m])/
-                2 - (3*d^2*\[Gamma][l - m]*\[Gamma][m])/2 + 2*d*
-                \[Alpha][l - m]*(2*\[Beta][m] + \[Gamma][m]) - 8*\[Mu][l - m]*
-                \[Mu][m] + 16*d*\[Mu][l - m]*\[Mu][m] - 8*d^2*\[Mu][l - m]*
-                \[Mu][m] + 16*(-1 + d)*d*(-(\[Gamma][l - m]*\[Mu][m]) + 
-                 \[Alpha][l - m]*(-\[Lambda][m] + \[Mu][m]) + \[Beta][l - m]*
-                  (\[Lambda][m] + \[Mu][m] - d*\[Mu][m])) + 8*d*\[Lambda][m]*
-                \[Rho][l - m] - 8*d^2*\[Lambda][m]*\[Rho][l - m] + 8*\[Mu][m]*
-                \[Rho][l - m] - 16*d*\[Mu][m]*\[Rho][l - m] + 8*d^2*\[Mu][m]*
-                \[Rho][l - m] + 8*d*\[Lambda][l - m]*\[Rho][m] - 8*d^2*
-                \[Lambda][l - m]*\[Rho][m] + 8*\[Mu][l - m]*\[Rho][m] - 16*d*
-                \[Mu][l - m]*\[Rho][m] + 8*d^2*\[Mu][l - m]*\[Rho][m] - 8*
-                \[Rho][l - m]*\[Rho][m] + 16*d*\[Rho][l - m]*\[Rho][m] - 8*
-                d^2*\[Rho][l - m]*\[Rho][m] - 8*d*\[Lambda][m]*\[Sigma][
-                 l - m] + 8*d^2*\[Lambda][m]*\[Sigma][l - m] - 16*\[Mu][m]*
-                \[Sigma][l - m] + 8*d*\[Mu][m]*\[Sigma][l - m] + 16*d^2*
-                \[Mu][m]*\[Sigma][l - m] - 8*d^3*\[Mu][m]*\[Sigma][l - m] + 
-               16*\[Rho][m]*\[Sigma][l - m] - 16*d*\[Rho][m]*\[Sigma][
-                 l - m] - 16*d*(\[Alpha][l - m] + (-2 + d)*
-                  (2*\[Beta][l - m] + \[Gamma][l - m]))*\[Sigma][m] - 8*d*
-                \[Lambda][l - m]*\[Sigma][m] + 8*d^2*\[Lambda][l - m]*
-                \[Sigma][m] - 16*\[Mu][l - m]*\[Sigma][m] + 8*d*\[Mu][l - m]*
-                \[Sigma][m] + 16*d^2*\[Mu][l - m]*\[Sigma][m] - 8*d^3*
-                \[Mu][l - m]*\[Sigma][m] + 16*\[Rho][l - m]*\[Sigma][m] - 16*
-                d*\[Rho][l - m]*\[Sigma][m] - 32*\[Sigma][l - m]*
-                \[Sigma][m] + 32*d*\[Sigma][l - m]*\[Sigma][m] - 8*(-1 + d)*d*
-                (2*\[Beta][l - m] + \[Gamma][l - m])*\[Tau][m] - 8*
-                \[Mu][l - m]*\[Tau][m] + 16*d*\[Mu][l - m]*\[Tau][m] - 8*d^2*
-                \[Mu][l - m]*\[Tau][m] + 8*\[Rho][l - m]*\[Tau][m] - 8*d*
-                \[Rho][l - m]*\[Tau][m] - 16*\[Sigma][l - m]*\[Tau][m] + 24*d*
-                \[Sigma][l - m]*\[Tau][m] - 8*d^2*\[Sigma][l - m]*\[Tau][m] - 
-               2*(-1 + d)*\[Tau][l - m]*(4*(-1 + d)*\[Mu][m] + 4*\[Rho][m] + 
-                 4*(-2 + d)*\[Sigma][m] + (-4 + 3*d)*\[Tau][m])))/
+               (-2 + d)*m)) + (2*m*(16*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] - 8*d^2*
+                Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] + 4*d*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m] - 
+               8*d^2*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m] + 2*d*Subscript[\[Chi], 1][m]*
+                ((-2 + d)*Subscript[\[Chi], 1][l - m] - 2*Subscript[\[Chi], 2][l - m] + Subscript[\[Chi], 3][
+                  l - m]) + 12*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] - 8*d^2*
+                Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] - (d*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/
+                2 - (3*d^2*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/2 + 2*d*
+                Subscript[\[Chi], 1][l - m]*(2*Subscript[\[Chi], 2][m] + Subscript[\[Chi], 3][m]) - 8*Subscript[\[Chi], 5][l - m]*
+                Subscript[\[Chi], 5][m] + 16*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] - 8*d^2*Subscript[\[Chi], 5][l - m]*
+                Subscript[\[Chi], 5][m] + 16*(-1 + d)*d*(-(Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 5][m]) + 
+                 Subscript[\[Chi], 1][l - m]*(-Subscript[\[Chi], 4][m] + Subscript[\[Chi], 5][m]) + Subscript[\[Chi], 2][l - m]*
+                  (Subscript[\[Chi], 4][m] + Subscript[\[Chi], 5][m] - d*Subscript[\[Chi], 5][m])) + 8*d*Subscript[\[Chi], 4][m]*
+                Subscript[\[Chi], 6][l - m] - 8*d^2*Subscript[\[Chi], 4][m]*Subscript[\[Chi], 6][l - m] + 8*Subscript[\[Chi], 5][m]*
+                Subscript[\[Chi], 6][l - m] - 16*d*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 6][l - m] + 8*d^2*Subscript[\[Chi], 5][m]*
+                Subscript[\[Chi], 6][l - m] + 8*d*Subscript[\[Chi], 4][l - m]*Subscript[\[Chi], 6][m] - 8*d^2*
+                Subscript[\[Chi], 4][l - m]*Subscript[\[Chi], 6][m] + 8*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 16*d*
+                Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] + 8*d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 8*
+                Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] + 16*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] - 8*
+                d^2*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] - 8*d*Subscript[\[Chi], 4][m]*Subscript[\[Chi], 7][
+                 l - m] + 8*d^2*Subscript[\[Chi], 4][m]*Subscript[\[Chi], 7][l - m] - 16*Subscript[\[Chi], 5][m]*
+                Subscript[\[Chi], 7][l - m] + 8*d*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 16*d^2*
+                Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] - 8*d^3*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 
+               16*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][l - m] - 16*d*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][
+                 l - m] - 16*d*(Subscript[\[Chi], 1][l - m] + (-2 + d)*
+                  (2*Subscript[\[Chi], 2][l - m] + Subscript[\[Chi], 3][l - m]))*Subscript[\[Chi], 7][m] - 8*d*
+                Subscript[\[Chi], 4][l - m]*Subscript[\[Chi], 7][m] + 8*d^2*Subscript[\[Chi], 4][l - m]*
+                Subscript[\[Chi], 7][m] - 16*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 8*d*Subscript[\[Chi], 5][l - m]*
+                Subscript[\[Chi], 7][m] + 16*d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] - 8*d^3*
+                Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 16*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 7][m] - 16*
+                d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 7][m] - 32*Subscript[\[Chi], 7][l - m]*
+                Subscript[\[Chi], 7][m] + 32*d*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 7][m] - 8*(-1 + d)*d*
+                (2*Subscript[\[Chi], 2][l - m] + Subscript[\[Chi], 3][l - m])*Subscript[\[Chi], 8][m] - 8*
+                Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 8][m] + 16*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 8][m] - 8*d^2*
+                Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 8][m] + 8*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 8][m] - 8*d*
+                Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 8][m] - 16*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 8][m] + 24*d*
+                Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 8][m] - 8*d^2*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 8][m] - 
+               2*(-1 + d)*Subscript[\[Chi], 8][l - m]*(4*(-1 + d)*Subscript[\[Chi], 5][m] + 4*Subscript[\[Chi], 6][m] + 
+                 4*(-2 + d)*Subscript[\[Chi], 7][m] + (-4 + 3*d)*Subscript[\[Chi], 8][m])))/
              (l*(-1 + l - m)) - (4*(2*d*(1 - m)*m*(2 - (-2 + d)*m)*
-                (2 + (-2 + d)*m)*(d + 2*m - d*m)*(2*\[Alpha][m]*\[Gamma][
-                   l - m] - ((3 + d)*\[Gamma][l - m]*(2*\[Beta][m] + 
-                    \[Gamma][m]))/2 - 4*(-1 + d)*\[Gamma][l - m]*
-                  (2*(\[Mu][m] + \[Sigma][m]) + \[Tau][m]) - 2*(-1 + d)*
-                  \[Tau][l - m]*(2*(\[Mu][m] + \[Sigma][m]) + \[Tau][m])) + d*
+                (2 + (-2 + d)*m)*(d + 2*m - d*m)*(2*Subscript[\[Chi], 1][m]*Subscript[\[Chi], 3][
+                   l - m] - ((3 + d)*Subscript[\[Chi], 3][l - m]*(2*Subscript[\[Chi], 2][m] + 
+                    Subscript[\[Chi], 3][m]))/2 - 4*(-1 + d)*Subscript[\[Chi], 3][l - m]*
+                  (2*(Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m]) + Subscript[\[Chi], 8][m]) - 2*(-1 + d)*
+                  Subscript[\[Chi], 8][l - m]*(2*(Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m]) + Subscript[\[Chi], 8][m])) + d*
                 (-1 + l - m)*(l - m)*(-2*l + d*(-1 + l - m) + 2*m)*
                 (2 + (-2 + d)*l - (-2 + d)*m)*(-2 + (-2 + d)*m)*
-                ((3 + d)*(2*\[Beta][l - m] + \[Gamma][l - m])*\[Gamma][m] + 
-                 4*(4*\[Beta][l - m] + 2*\[Gamma][l - m] + (-1 + d)*
-                    (2*(\[Mu][l - m] + \[Sigma][l - m]) + \[Tau][l - m]))*
-                  \[Tau][m] - 4*\[Alpha][l - m]*(\[Gamma][m] + 
-                   2*\[Tau][m])) - 2*(-1 + d)*d*(-1 + l)*(2 + (-2 + d)*l)*
-                (d*(-1 + m) - 2*m)*m*(-2 + (-2 + d)*m)*(3*\[Beta][m]*
-                  \[Gamma][l - m] + 4*\[Tau][l - m]*(\[Mu][m] + \[Sigma][m] + 
-                   \[Tau][m]) + 2*\[Gamma][l - m]*(\[Gamma][m] + 
-                   8*\[Sigma][m] + 4*\[Tau][m])) + (-1 + d)*d*(d*(-1 + l) - 
+                ((3 + d)*(2*Subscript[\[Chi], 2][l - m] + Subscript[\[Chi], 3][l - m])*Subscript[\[Chi], 3][m] + 
+                 4*(4*Subscript[\[Chi], 2][l - m] + 2*Subscript[\[Chi], 3][l - m] + (-1 + d)*
+                    (2*(Subscript[\[Chi], 5][l - m] + Subscript[\[Chi], 7][l - m]) + Subscript[\[Chi], 8][l - m]))*
+                  Subscript[\[Chi], 8][m] - 4*Subscript[\[Chi], 1][l - m]*(Subscript[\[Chi], 3][m] + 
+                   2*Subscript[\[Chi], 8][m])) - 2*(-1 + d)*d*(-1 + l)*(2 + (-2 + d)*l)*
+                (d*(-1 + m) - 2*m)*m*(-2 + (-2 + d)*m)*(3*Subscript[\[Chi], 2][m]*
+                  Subscript[\[Chi], 3][l - m] + 4*Subscript[\[Chi], 8][l - m]*(Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m] + 
+                   Subscript[\[Chi], 8][m]) + 2*Subscript[\[Chi], 3][l - m]*(Subscript[\[Chi], 3][m] + 
+                   8*Subscript[\[Chi], 7][m] + 4*Subscript[\[Chi], 8][m])) + (-1 + d)*d*(d*(-1 + l) - 
                  2*l)*(-1 + l)*l*(2 + (-2 + d)*l)*(-2 + (-2 + d)*m)*
-                (4*\[Tau][l - m]*\[Tau][m] + \[Gamma][l - m]*(3*\[Gamma][m] + 
-                   8*\[Tau][m])) + 4*(l - m)*m*(2 - (-2 + d)*m)*(d + 2*l - 
-                 d*l + (-2 + d)*m)*(d + 2*m - d*m)*(4*d*\[Beta][l - m]*
-                  \[Beta][m] + (5*d*\[Beta][m]*\[Gamma][l - m])/2 - 
-                 (d^2*\[Beta][m]*\[Gamma][l - m])/2 - d*\[Alpha][m]*
-                  ((-2 + d)*\[Alpha][l - m] + 2*\[Beta][l - m] + \[Gamma][
-                    l - m]) + (5*d*\[Beta][l - m]*\[Gamma][m])/2 - 
-                 (d^2*\[Beta][l - m]*\[Gamma][m])/2 + (3*d*\[Gamma][l - m]*
-                   \[Gamma][m])/2 - (d^2*\[Gamma][l - m]*\[Gamma][m])/2 - 
-                 d*\[Alpha][l - m]*(2*\[Beta][m] + \[Gamma][m]) - 
-                 4*\[Mu][l - m]*\[Mu][m] + 8*d*\[Mu][l - m]*\[Mu][m] - 
-                 4*d^2*\[Mu][l - m]*\[Mu][m] + 4*\[Mu][m]*\[Rho][l - m] - 
-                 4*d*\[Mu][m]*\[Rho][l - m] + 4*\[Mu][l - m]*\[Rho][m] - 
-                 4*d*\[Mu][l - m]*\[Rho][m] - 4*\[Rho][l - m]*\[Rho][m] + 
-                 8*d*\[Rho][l - m]*\[Rho][m] - 4*d^2*\[Rho][l - m]*
-                  \[Rho][m] - 8*\[Mu][m]*\[Sigma][l - m] + 8*d*\[Mu][m]*
-                  \[Sigma][l - m] + 8*\[Rho][m]*\[Sigma][l - m] - 
-                 8*d*\[Rho][m]*\[Sigma][l - m] - 8*\[Mu][l - m]*\[Sigma][m] + 
-                 8*d*\[Mu][l - m]*\[Sigma][m] + 8*\[Rho][l - m]*\[Sigma][m] - 
-                 8*d*\[Rho][l - m]*\[Sigma][m] - 16*\[Sigma][l - m]*
-                  \[Sigma][m] + 16*d*\[Sigma][l - m]*\[Sigma][m] - 
-                 4*\[Mu][l - m]*\[Tau][m] + 6*d*\[Mu][l - m]*\[Tau][m] - 
-                 2*d^2*\[Mu][l - m]*\[Tau][m] + 4*\[Rho][l - m]*\[Tau][m] - 
-                 4*d*\[Rho][l - m]*\[Tau][m] - 8*\[Sigma][l - m]*\[Tau][m] + 
-                 10*d*\[Sigma][l - m]*\[Tau][m] - 2*d^2*\[Sigma][l - m]*
-                  \[Tau][m] - 2*d*\[Alpha][l - m]*(2*(-2 + d)*\[Rho][m] + 
-                   4*\[Sigma][m] + \[Tau][m]) - 2*d*(2*\[Beta][l - m] + 
-                   \[Gamma][l - m])*(2*\[Rho][m] - 4*\[Sigma][m] + 
-                   (-2 + d)*\[Tau][m]) - 2*(-1 + d)*\[Tau][l - m]*
-                  ((-2 + d)*\[Mu][m] + 2*\[Rho][m] + (-4 + d)*\[Sigma][m] + 
-                   (-2 + d)*\[Tau][m])) + 4*d*(1 - l)*(2 + (-2 + d)*l)*
+                (4*Subscript[\[Chi], 8][l - m]*Subscript[\[Chi], 8][m] + Subscript[\[Chi], 3][l - m]*(3*Subscript[\[Chi], 3][m] + 
+                   8*Subscript[\[Chi], 8][m])) + 4*(l - m)*m*(2 - (-2 + d)*m)*(d + 2*l - 
+                 d*l + (-2 + d)*m)*(d + 2*m - d*m)*(4*d*Subscript[\[Chi], 2][l - m]*
+                  Subscript[\[Chi], 2][m] + (5*d*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m])/2 - 
+                 (d^2*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m])/2 - d*Subscript[\[Chi], 1][m]*
+                  ((-2 + d)*Subscript[\[Chi], 1][l - m] + 2*Subscript[\[Chi], 2][l - m] + Subscript[\[Chi], 3][
+                    l - m]) + (5*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m])/2 - 
+                 (d^2*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m])/2 + (3*d*Subscript[\[Chi], 3][l - m]*
+                   Subscript[\[Chi], 3][m])/2 - (d^2*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/2 - 
+                 d*Subscript[\[Chi], 1][l - m]*(2*Subscript[\[Chi], 2][m] + Subscript[\[Chi], 3][m]) - 
+                 4*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] + 8*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] - 
+                 4*d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] + 4*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 6][l - m] - 
+                 4*d*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 6][l - m] + 4*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 
+                 4*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 4*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] + 
+                 8*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] - 4*d^2*Subscript[\[Chi], 6][l - m]*
+                  Subscript[\[Chi], 6][m] - 8*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 8*d*Subscript[\[Chi], 5][m]*
+                  Subscript[\[Chi], 7][l - m] + 8*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][l - m] - 
+                 8*d*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][l - m] - 8*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 
+                 8*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 8*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 7][m] - 
+                 8*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 7][m] - 16*Subscript[\[Chi], 7][l - m]*
+                  Subscript[\[Chi], 7][m] + 16*d*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 7][m] - 
+                 4*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 8][m] + 6*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 8][m] - 
+                 2*d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 8][m] + 4*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 8][m] - 
+                 4*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 8][m] - 8*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 8][m] + 
+                 10*d*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 8][m] - 2*d^2*Subscript[\[Chi], 7][l - m]*
+                  Subscript[\[Chi], 8][m] - 2*d*Subscript[\[Chi], 1][l - m]*(2*(-2 + d)*Subscript[\[Chi], 6][m] + 
+                   4*Subscript[\[Chi], 7][m] + Subscript[\[Chi], 8][m]) - 2*d*(2*Subscript[\[Chi], 2][l - m] + 
+                   Subscript[\[Chi], 3][l - m])*(2*Subscript[\[Chi], 6][m] - 4*Subscript[\[Chi], 7][m] + 
+                   (-2 + d)*Subscript[\[Chi], 8][m]) - 2*(-1 + d)*Subscript[\[Chi], 8][l - m]*
+                  ((-2 + d)*Subscript[\[Chi], 5][m] + 2*Subscript[\[Chi], 6][m] + (-4 + d)*Subscript[\[Chi], 7][m] + 
+                   (-2 + d)*Subscript[\[Chi], 8][m])) + 4*d*(1 - l)*(2 + (-2 + d)*l)*
                 (l - m)*(2 - (-2 + d)*m)*(d + 2*l - d*l + (-2 + d)*m)*
-                (-2*(\[Alpha][l - m] - (-1 + d)*(\[Mu][l - m] + \[Sigma][
-                      l - m] + \[Tau][l - m]))*\[Tau][m] + (\[Beta][l - m]*
-                   (3*(-1 + d)*\[Gamma][m] + 8*\[Tau][m]))/2 + 
-                 \[Gamma][l - m]*((-1 + d)*\[Gamma][m] + 2*d*\[Tau][m]))))/
+                (-2*(Subscript[\[Chi], 1][l - m] - (-1 + d)*(Subscript[\[Chi], 5][l - m] + Subscript[\[Chi], 7][
+                      l - m] + Subscript[\[Chi], 8][l - m]))*Subscript[\[Chi], 8][m] + (Subscript[\[Chi], 2][l - m]*
+                   (3*(-1 + d)*Subscript[\[Chi], 3][m] + 8*Subscript[\[Chi], 8][m]))/2 + 
+                 Subscript[\[Chi], 3][l - m]*((-1 + d)*Subscript[\[Chi], 3][m] + 2*d*Subscript[\[Chi], 8][m]))))/
              (l*(2 + (-2 + d)*l)*(d*(-1 + m) - 2*m)*(-1 + l - m)*(-1 + m)*
               (-2*l + d*(-1 + l - m) + 2*m)*(-2 + (-2 + d)*m))))/
           (2*(-1 + d)*d))/(16*(-1 + l)), {m, 2, -2 + l}] + 
-      ((-2 + d)*\[Alpha][-1 + l] + 2*\[Beta][-1 + l] + \[Gamma][-1 + l] - 
-        (2*((-2 + d)*\[Alpha][-1 + l] + 2*\[Beta][-1 + l] + 
-           \[Gamma][-1 + l]))/(l*(2 + (-2 + d)*l)) + 
-        ((-2 + l)*((-2 + d)*\[Alpha][-1 + l] + 2*\[Beta][-1 + l] + 
-           \[Gamma][-1 + l] - 4*(-1 + d)*(\[Lambda][-1 + l] - 
-             \[Mu][-1 + l]) - 4*\[Sigma][-1 + l]))/l + 4*\[Sigma][-1 + l] + 
-        (2*(-((-2 + d)*\[Alpha][-1 + l]) - 2*\[Beta][-1 + l] - 
-           \[Gamma][-1 + l] - 4*(-2 + d)*\[Rho][-1 + l] - 
-           8*\[Sigma][-1 + l] - (4*(-2 + d)*(-1 + l)*\[Tau][-1 + l])/
+      ((-2 + d)*Subscript[\[Chi], 1][-1 + l] + 2*Subscript[\[Chi], 2][-1 + l] + Subscript[\[Chi], 3][-1 + l] - 
+        (2*((-2 + d)*Subscript[\[Chi], 1][-1 + l] + 2*Subscript[\[Chi], 2][-1 + l] + 
+           Subscript[\[Chi], 3][-1 + l]))/(l*(2 + (-2 + d)*l)) + 
+        ((-2 + l)*((-2 + d)*Subscript[\[Chi], 1][-1 + l] + 2*Subscript[\[Chi], 2][-1 + l] + 
+           Subscript[\[Chi], 3][-1 + l] - 4*(-1 + d)*(Subscript[\[Chi], 4][-1 + l] - 
+             Subscript[\[Chi], 5][-1 + l]) - 4*Subscript[\[Chi], 7][-1 + l]))/l + 4*Subscript[\[Chi], 7][-1 + l] + 
+        (2*(-((-2 + d)*Subscript[\[Chi], 1][-1 + l]) - 2*Subscript[\[Chi], 2][-1 + l] - 
+           Subscript[\[Chi], 3][-1 + l] - 4*(-2 + d)*Subscript[\[Chi], 6][-1 + l] - 
+           8*Subscript[\[Chi], 7][-1 + l] - (4*(-2 + d)*(-1 + l)*Subscript[\[Chi], 8][-1 + l])/
             (2 + d*(-2 + l) - 2*l)))/(l*(2 + (-2 + d)*l)))/(-1 + d), 
-     Sum[(8*(-1 + d)*\[Beta][l - m]*\[Beta][m] + 6*(-1 + d)*\[Beta][l - m]*
-          \[Gamma][m] + 32*(-1 + d)*\[Beta][l - m]*\[Sigma][m] - 
-         8*\[Alpha][l - m]*\[Tau][m] + 16*d*\[Beta][l - m]*\[Tau][m] - 
-         4*(-3 + d)*\[Gamma][l - m]*\[Tau][m] + 4*(-1 + d)*\[Gamma][l - m]*
-          \[Tau][m] + 8*(-1 + d)*(\[Mu][l - m] + \[Sigma][l - m])*\[Tau][m] + 
-         ((-2 + d)^2*(-1 + d)*(-1 + m)*m*\[Gamma][l - m]*(\[Gamma][m] + 
-            4*\[Tau][m]))/((-2 + (-2 + d)*(l - m))*(-2*l + d*(-1 + l - m) + 
+     Sum[(8*(-1 + d)*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] + 6*(-1 + d)*Subscript[\[Chi], 2][l - m]*
+          Subscript[\[Chi], 3][m] + 32*(-1 + d)*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 7][m] - 
+         8*Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 8][m] + 16*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 8][m] - 
+         4*(-3 + d)*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 8][m] + 4*(-1 + d)*Subscript[\[Chi], 3][l - m]*
+          Subscript[\[Chi], 8][m] + 8*(-1 + d)*(Subscript[\[Chi], 5][l - m] + Subscript[\[Chi], 7][l - m])*Subscript[\[Chi], 8][m] + 
+         ((-2 + d)^2*(-1 + d)*(-1 + m)*m*Subscript[\[Chi], 3][l - m]*(Subscript[\[Chi], 3][m] + 
+            4*Subscript[\[Chi], 8][m]))/((-2 + (-2 + d)*(l - m))*(-2*l + d*(-1 + l - m) + 
             2*m)) - (2*(-1 + d)*(d*(-1 + l) - 2*l)*(-2 + (-2 + d)*l)*
-           \[Gamma][l - m]*(\[Gamma][m] + 4*\[Tau][m]))/
+           Subscript[\[Chi], 3][l - m]*(Subscript[\[Chi], 3][m] + 4*Subscript[\[Chi], 8][m]))/
           ((-2*l + d*(-1 + l - m) + 2*m)*(-2 + (-2 + d)*l - (-2 + d)*m)) + 
          ((-1 + d)*(d*(-1 + l) - 2*l)*(-4 + (-2 + d)*l)*(-2 + (-2 + d)*l)*
-           (d*(-1 + l) - 2*(1 + l))*\[Gamma][l - m]*(\[Gamma][m] + 
-            4*\[Tau][m]))/((d*(-1 + m) - 2*m)*(-2*l + d*(-1 + l - m) + 2*m)*
+           (d*(-1 + l) - 2*(1 + l))*Subscript[\[Chi], 3][l - m]*(Subscript[\[Chi], 3][m] + 
+            4*Subscript[\[Chi], 8][m]))/((d*(-1 + m) - 2*m)*(-2*l + d*(-1 + l - m) + 2*m)*
            (-2 + (-2 + d)*l - (-2 + d)*m)*(-2 + (-2 + d)*m)) - 
-         ((-2 + d)^2*(-l + m)*(1 - l + m)*((-5 + d)*(2*\[Beta][l - m] + 
-              \[Gamma][l - m])*\[Gamma][m] + 4*(-4*\[Beta][l - m] + 
-              (-3 + d)*\[Gamma][l - m] - 2*(-1 + d)*(\[Mu][l - m] + 
-                \[Sigma][l - m]))*\[Tau][m] + 4*\[Alpha][l - m]*
-             (\[Gamma][m] + 2*\[Tau][m])))/((d*(-1 + m) - 2*m)*
+         ((-2 + d)^2*(-l + m)*(1 - l + m)*((-5 + d)*(2*Subscript[\[Chi], 2][l - m] + 
+              Subscript[\[Chi], 3][l - m])*Subscript[\[Chi], 3][m] + 4*(-4*Subscript[\[Chi], 2][l - m] + 
+              (-3 + d)*Subscript[\[Chi], 3][l - m] - 2*(-1 + d)*(Subscript[\[Chi], 5][l - m] + 
+                Subscript[\[Chi], 7][l - m]))*Subscript[\[Chi], 8][m] + 4*Subscript[\[Chi], 1][l - m]*
+             (Subscript[\[Chi], 3][m] + 2*Subscript[\[Chi], 8][m])))/((d*(-1 + m) - 2*m)*
            (-2 + (-2 + d)*m)) - (2*(d*(-1 + l) - 2*l)*(-2 + (-2 + d)*l)*
-           (-4*\[Alpha][l - m]*\[Tau][m] + 4*(\[Gamma][l - m] + 
-              (-1 + d)*(\[Mu][l - m] + \[Sigma][l - m]))*\[Tau][m] + 
-            \[Beta][l - m]*((-1 + d)*\[Gamma][m] + 8*\[Tau][m])))/
+           (-4*Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 8][m] + 4*(Subscript[\[Chi], 3][l - m] + 
+              (-1 + d)*(Subscript[\[Chi], 5][l - m] + Subscript[\[Chi], 7][l - m]))*Subscript[\[Chi], 8][m] + 
+            Subscript[\[Chi], 2][l - m]*((-1 + d)*Subscript[\[Chi], 3][m] + 8*Subscript[\[Chi], 8][m])))/
           ((d*(-1 + m) - 2*m)*(-2 + (-2 + d)*m)) + 
          ((l - m)*(2*(-2 + d)^2*d*(1 - m)*m*(2 - (-2 + d)*m)*(d + 2*m - d*m)*
-             (2*\[Alpha][m]*\[Gamma][l - m] - ((3 + d)*\[Gamma][l - m]*
-                (2*\[Beta][m] + \[Gamma][m]))/2 - 4*(-1 + d)*\[Gamma][l - m]*(
-                2*(\[Mu][m] + \[Sigma][m]) + \[Tau][m]) - 2*(-1 + d)*\[Tau][
-                l - m]*(2*(\[Mu][m] + \[Sigma][m]) + \[Tau][m])) + 
+             (2*Subscript[\[Chi], 1][m]*Subscript[\[Chi], 3][l - m] - ((3 + d)*Subscript[\[Chi], 3][l - m]*
+                (2*Subscript[\[Chi], 2][m] + Subscript[\[Chi], 3][m]))/2 - 4*(-1 + d)*Subscript[\[Chi], 3][l - m]*(
+                2*(Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m]) + Subscript[\[Chi], 8][m]) - 2*(-1 + d)*Subscript[\[Chi], 8][
+                l - m]*(2*(Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m]) + Subscript[\[Chi], 8][m])) + 
             (-2 + d)*d*(-1 + l - m)*(-2*l + d*(-1 + l - m) + 2*m)*
              (2 + (-2 + d)*l - (-2 + d)*m)*(4 + (-2 + d)*l - (-2 + d)*m)*
-             ((3 + d)*(2*\[Beta][l - m] + \[Gamma][l - m])*\[Gamma][m] + 
-              4*(4*\[Beta][l - m] + 2*\[Gamma][l - m] + (-1 + d)*
-                 (2*(\[Mu][l - m] + \[Sigma][l - m]) + \[Tau][l - m]))*\[Tau][
-                m] - 4*\[Alpha][l - m]*(\[Gamma][m] + 2*\[Tau][m])) - 
+             ((3 + d)*(2*Subscript[\[Chi], 2][l - m] + Subscript[\[Chi], 3][l - m])*Subscript[\[Chi], 3][m] + 
+              4*(4*Subscript[\[Chi], 2][l - m] + 2*Subscript[\[Chi], 3][l - m] + (-1 + d)*
+                 (2*(Subscript[\[Chi], 5][l - m] + Subscript[\[Chi], 7][l - m]) + Subscript[\[Chi], 8][l - m]))*Subscript[\[Chi], 8][
+                m] - 4*Subscript[\[Chi], 1][l - m]*(Subscript[\[Chi], 3][m] + 2*Subscript[\[Chi], 8][m])) - 
             4*(1 - d)*d*(d*(-1 + l) - 2*l)*(2 + (-2 + d)*l)*(2 - (-2 + d)*m)*
-             (d + 2*m - d*m)*((-3*\[Beta][m]*\[Gamma][l - m])/2 - 
-              2*\[Tau][l - m]*(\[Mu][m] + \[Sigma][m] + \[Tau][m]) - 
-              \[Gamma][l - m]*(\[Gamma][m] + 8*\[Sigma][m] + 4*\[Tau][m])) + 
+             (d + 2*m - d*m)*((-3*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m])/2 - 
+              2*Subscript[\[Chi], 8][l - m]*(Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m] + Subscript[\[Chi], 8][m]) - 
+              Subscript[\[Chi], 3][l - m]*(Subscript[\[Chi], 3][m] + 8*Subscript[\[Chi], 7][m] + 4*Subscript[\[Chi], 8][m])) + 
             (-2 + d)*(-1 + d)*d*(d*(-1 + l) - 2*l)*l*(2 + (-2 + d)*l)*
-             (d*(-1 + l) - 2*(1 + l))*(4*\[Tau][l - m]*\[Tau][m] + 
-              \[Gamma][l - m]*(3*\[Gamma][m] + 8*\[Tau][m])) + 
+             (d*(-1 + l) - 2*(1 + l))*(4*Subscript[\[Chi], 8][l - m]*Subscript[\[Chi], 8][m] + 
+              Subscript[\[Chi], 3][l - m]*(3*Subscript[\[Chi], 3][m] + 8*Subscript[\[Chi], 8][m])) + 
             4*(2 + (-2 + d)*(l - m))*(2 - (-2 + d)*m)*(d + 2*l - d*l + 
-              (-2 + d)*m)*(d + 2*m - d*m)*(-2*d*\[Alpha][l - m]*\[Beta][m] + 
-              4*d*\[Beta][l - m]*\[Beta][m] + (5*d*\[Beta][m]*\[Gamma][
-                 l - m])/2 - (d^2*\[Beta][m]*\[Gamma][l - m])/2 - 
-              d*\[Alpha][m]*((-2 + d)*\[Alpha][l - m] + 2*\[Beta][l - m] + 
-                \[Gamma][l - m]) - d*\[Alpha][l - m]*\[Gamma][m] + 
-              (5*d*\[Beta][l - m]*\[Gamma][m])/2 - (d^2*\[Beta][l - m]*
-                \[Gamma][m])/2 + (3*d*\[Gamma][l - m]*\[Gamma][m])/2 - 
-              (d^2*\[Gamma][l - m]*\[Gamma][m])/2 - 4*\[Mu][l - m]*\[Mu][m] + 
-              8*d*\[Mu][l - m]*\[Mu][m] - 4*d^2*\[Mu][l - m]*\[Mu][m] + 
-              4*\[Mu][m]*\[Rho][l - m] - 4*d*\[Mu][m]*\[Rho][l - m] + 
-              4*\[Mu][l - m]*\[Rho][m] - 4*d*\[Mu][l - m]*\[Rho][m] - 
-              4*\[Rho][l - m]*\[Rho][m] + 8*d*\[Rho][l - m]*\[Rho][m] - 
-              4*d^2*\[Rho][l - m]*\[Rho][m] - 8*\[Mu][m]*\[Sigma][l - m] + 
-              8*d*\[Mu][m]*\[Sigma][l - m] + 8*\[Rho][m]*\[Sigma][l - m] - 
-              8*d*\[Rho][m]*\[Sigma][l - m] - 8*\[Mu][l - m]*\[Sigma][m] + 
-              8*d*\[Mu][l - m]*\[Sigma][m] + 8*\[Rho][l - m]*\[Sigma][m] - 
-              8*d*\[Rho][l - m]*\[Sigma][m] - 16*\[Sigma][l - m]*\[Sigma][
-                m] + 16*d*\[Sigma][l - m]*\[Sigma][m] - 4*\[Mu][l - m]*\[Tau][
-                m] + 6*d*\[Mu][l - m]*\[Tau][m] - 2*d^2*\[Mu][l - m]*\[Tau][
-                m] + 4*\[Rho][l - m]*\[Tau][m] - 4*d*\[Rho][l - m]*\[Tau][
-                m] - 8*\[Sigma][l - m]*\[Tau][m] + 10*d*\[Sigma][l - m]*
-               \[Tau][m] - 2*d^2*\[Sigma][l - m]*\[Tau][m] - 2*d*\[Alpha][
-                l - m]*(2*(-2 + d)*\[Rho][m] + 4*\[Sigma][m] + \[Tau][m]) - 
-              2*d*(2*\[Beta][l - m] + \[Gamma][l - m])*(2*\[Rho][m] - 
-                4*\[Sigma][m] + (-2 + d)*\[Tau][m]) - 2*(-1 + d)*\[Tau][
-                l - m]*((-2 + d)*\[Mu][m] + 2*\[Rho][m] + (-4 + d)*
-                 \[Sigma][m] + (-2 + d)*\[Tau][m])) + 4*d*(d*(-1 + l) - 2*l)*
+              (-2 + d)*m)*(d + 2*m - d*m)*(-2*d*Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 2][m] + 
+              4*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] + (5*d*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][
+                 l - m])/2 - (d^2*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m])/2 - 
+              d*Subscript[\[Chi], 1][m]*((-2 + d)*Subscript[\[Chi], 1][l - m] + 2*Subscript[\[Chi], 2][l - m] + 
+                Subscript[\[Chi], 3][l - m]) - d*Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 3][m] + 
+              (5*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m])/2 - (d^2*Subscript[\[Chi], 2][l - m]*
+                Subscript[\[Chi], 3][m])/2 + (3*d*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/2 - 
+              (d^2*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/2 - 4*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] + 
+              8*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] - 4*d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] + 
+              4*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 6][l - m] - 4*d*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 6][l - m] + 
+              4*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 4*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 
+              4*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] + 8*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] - 
+              4*d^2*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] - 8*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 
+              8*d*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 8*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][l - m] - 
+              8*d*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][l - m] - 8*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 
+              8*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 8*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 7][m] - 
+              8*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 7][m] - 16*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 7][
+                m] + 16*d*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 7][m] - 4*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 8][
+                m] + 6*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 8][m] - 2*d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 8][
+                m] + 4*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 8][m] - 4*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 8][
+                m] - 8*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 8][m] + 10*d*Subscript[\[Chi], 7][l - m]*
+               Subscript[\[Chi], 8][m] - 2*d^2*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 8][m] - 2*d*Subscript[\[Chi], 1][
+                l - m]*(2*(-2 + d)*Subscript[\[Chi], 6][m] + 4*Subscript[\[Chi], 7][m] + Subscript[\[Chi], 8][m]) - 
+              2*d*(2*Subscript[\[Chi], 2][l - m] + Subscript[\[Chi], 3][l - m])*(2*Subscript[\[Chi], 6][m] - 
+                4*Subscript[\[Chi], 7][m] + (-2 + d)*Subscript[\[Chi], 8][m]) - 2*(-1 + d)*Subscript[\[Chi], 8][
+                l - m]*((-2 + d)*Subscript[\[Chi], 5][m] + 2*Subscript[\[Chi], 6][m] + (-4 + d)*
+                 Subscript[\[Chi], 7][m] + (-2 + d)*Subscript[\[Chi], 8][m])) + 4*d*(d*(-1 + l) - 2*l)*
              (2 + (-2 + d)*l)*(2 + (-2 + d)*(l - m))*(d + 2*l - d*l + 
-              (-2 + d)*m)*(-2*(\[Alpha][l - m] - (-1 + d)*(\[Mu][l - m] + 
-                  \[Sigma][l - m] + \[Tau][l - m]))*\[Tau][m] + 
-              (\[Beta][l - m]*(3*(-1 + d)*\[Gamma][m] + 8*\[Tau][m]))/2 + 
-              \[Gamma][l - m]*((-1 + d)*\[Gamma][m] + 2*d*\[Tau][m]))))/
+              (-2 + d)*m)*(-2*(Subscript[\[Chi], 1][l - m] - (-1 + d)*(Subscript[\[Chi], 5][l - m] + 
+                  Subscript[\[Chi], 7][l - m] + Subscript[\[Chi], 8][l - m]))*Subscript[\[Chi], 8][m] + 
+              (Subscript[\[Chi], 2][l - m]*(3*(-1 + d)*Subscript[\[Chi], 3][m] + 8*Subscript[\[Chi], 8][m]))/2 + 
+              Subscript[\[Chi], 3][l - m]*((-1 + d)*Subscript[\[Chi], 3][m] + 2*d*Subscript[\[Chi], 8][m]))))/
           (d*l*(2 + (-2 + d)*l)*(d*(-1 + m) - 2*m)*(-2*l + d*(-1 + l - m) + 
             2*m)*(-2 + (-2 + d)*m)) + (2*(-1 + l - m)*(-1 + m)*
            (2*(l - m)*(2 - (-2 + d)*m)*(d + 2*l - d*l + (-2 + d)*m)*
-             (d + 2*m - d*m)*(4*d*\[Beta][l - m]*\[Beta][m] + 
-              d*\[Beta][m]*\[Gamma][l - m] + d^2*\[Beta][m]*\[Gamma][l - m] - 
-              d*\[Alpha][m]*(2*\[Beta][l - m] + \[Gamma][l - m]) + 
-              4*d*\[Beta][l - m]*\[Gamma][m] - 2*d^2*\[Beta][l - m]*\[Gamma][
-                m] + (3*d*\[Gamma][l - m]*\[Gamma][m])/2 - 
-              (d^2*\[Gamma][l - m]*\[Gamma][m])/2 - 4*\[Mu][l - m]*\[Mu][m] + 
-              8*d*\[Mu][l - m]*\[Mu][m] - 4*d^2*\[Mu][l - m]*\[Mu][m] + 
-              4*\[Mu][m]*\[Rho][l - m] - 4*d*\[Mu][m]*\[Rho][l - m] - 
-              8*d*\[Beta][l - m]*\[Rho][m] - 4*d*\[Gamma][l - m]*\[Rho][m] + 
-              4*\[Mu][l - m]*\[Rho][m] - 4*d*\[Mu][l - m]*\[Rho][m] - 
-              4*\[Rho][l - m]*\[Rho][m] + 8*d*\[Rho][l - m]*\[Rho][m] - 
-              4*d^2*\[Rho][l - m]*\[Rho][m] - 8*\[Mu][m]*\[Sigma][l - m] + 
-              8*d*\[Mu][m]*\[Sigma][l - m] + 8*\[Rho][m]*\[Sigma][l - m] - 
-              8*d*\[Rho][m]*\[Sigma][l - m] + 24*d*\[Beta][l - m]*\[Sigma][
-                m] - 8*d^2*\[Beta][l - m]*\[Sigma][m] + 4*d*\[Gamma][l - m]*
-               \[Sigma][m] + 4*d^2*\[Gamma][l - m]*\[Sigma][m] - 
-              8*\[Mu][l - m]*\[Sigma][m] + 8*d*\[Mu][l - m]*\[Sigma][m] + 
-              8*\[Rho][l - m]*\[Sigma][m] - 8*d*\[Rho][l - m]*\[Sigma][m] - 
-              16*\[Sigma][l - m]*\[Sigma][m] + 16*d*\[Sigma][l - m]*\[Sigma][
-                m] - d*\[Alpha][l - m]*((-2 + d)*\[Alpha][m] + 2*\[Beta][m] + 
-                \[Gamma][m] + 4*(-2 + d)*\[Rho][m] + 8*\[Sigma][m]) - 
-              4*\[Mu][m]*\[Tau][l - m] + 4*d*\[Mu][m]*\[Tau][l - m] + 
-              4*\[Rho][m]*\[Tau][l - m] - 4*d*\[Rho][m]*\[Tau][l - m] - 
-              8*\[Sigma][m]*\[Tau][l - m] + 8*d*\[Sigma][m]*\[Tau][l - m] - 
-              2*(-1 + d)*(4*d*\[Beta][l - m] + d*\[Gamma][l - m] + 
-                2*((-1 + d)*\[Mu][l - m] + \[Rho][l - m] + (-2 + d)*
-                   \[Sigma][l - m]) + (-2 + d)*\[Tau][l - m])*\[Tau][m]) - 
+             (d + 2*m - d*m)*(4*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] + 
+              d*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m] + d^2*Subscript[\[Chi], 2][m]*Subscript[\[Chi], 3][l - m] - 
+              d*Subscript[\[Chi], 1][m]*(2*Subscript[\[Chi], 2][l - m] + Subscript[\[Chi], 3][l - m]) + 
+              4*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] - 2*d^2*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][
+                m] + (3*d*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/2 - 
+              (d^2*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/2 - 4*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] + 
+              8*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] - 4*d^2*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 5][m] + 
+              4*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 6][l - m] - 4*d*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 6][l - m] - 
+              8*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 6][m] - 4*d*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 6][m] + 
+              4*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 4*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 6][m] - 
+              4*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] + 8*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] - 
+              4*d^2*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 6][m] - 8*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 
+              8*d*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 7][l - m] + 8*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][l - m] - 
+              8*d*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 7][l - m] + 24*d*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 7][
+                m] - 8*d^2*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 7][m] + 4*d*Subscript[\[Chi], 3][l - m]*
+               Subscript[\[Chi], 7][m] + 4*d^2*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 7][m] - 
+              8*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 8*d*Subscript[\[Chi], 5][l - m]*Subscript[\[Chi], 7][m] + 
+              8*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 7][m] - 8*d*Subscript[\[Chi], 6][l - m]*Subscript[\[Chi], 7][m] - 
+              16*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 7][m] + 16*d*Subscript[\[Chi], 7][l - m]*Subscript[\[Chi], 7][
+                m] - d*Subscript[\[Chi], 1][l - m]*((-2 + d)*Subscript[\[Chi], 1][m] + 2*Subscript[\[Chi], 2][m] + 
+                Subscript[\[Chi], 3][m] + 4*(-2 + d)*Subscript[\[Chi], 6][m] + 8*Subscript[\[Chi], 7][m]) - 
+              4*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 8][l - m] + 4*d*Subscript[\[Chi], 5][m]*Subscript[\[Chi], 8][l - m] + 
+              4*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 8][l - m] - 4*d*Subscript[\[Chi], 6][m]*Subscript[\[Chi], 8][l - m] - 
+              8*Subscript[\[Chi], 7][m]*Subscript[\[Chi], 8][l - m] + 8*d*Subscript[\[Chi], 7][m]*Subscript[\[Chi], 8][l - m] - 
+              2*(-1 + d)*(4*d*Subscript[\[Chi], 2][l - m] + d*Subscript[\[Chi], 3][l - m] + 
+                2*((-1 + d)*Subscript[\[Chi], 5][l - m] + Subscript[\[Chi], 6][l - m] + (-2 + d)*
+                   Subscript[\[Chi], 7][l - m]) + (-2 + d)*Subscript[\[Chi], 8][l - m])*Subscript[\[Chi], 8][m]) - 
             ((-2 + d)*d*(-1 + l - m)*(l - m)*(-2*l + d*(-1 + l - m) + 2*m)*
-              (2 + (-2 + d)*l - (-2 + d)*m)*((-16*\[Beta][l - m] + 
-                 (-9 + d)*\[Gamma][l - m])*\[Gamma][m] + 4*
-                (-8*\[Beta][l - m] + (-5 + d)*\[Gamma][l - m] - (-1 + d)*
-                  (4*(\[Mu][l - m] + \[Sigma][l - m]) + \[Tau][l - m]))*
-                \[Tau][m] + 8*\[Alpha][l - m]*(\[Gamma][m] + 2*\[Tau][m])))/
+              (2 + (-2 + d)*l - (-2 + d)*m)*((-16*Subscript[\[Chi], 2][l - m] + 
+                 (-9 + d)*Subscript[\[Chi], 3][l - m])*Subscript[\[Chi], 3][m] + 4*
+                (-8*Subscript[\[Chi], 2][l - m] + (-5 + d)*Subscript[\[Chi], 3][l - m] - (-1 + d)*
+                  (4*(Subscript[\[Chi], 5][l - m] + Subscript[\[Chi], 7][l - m]) + Subscript[\[Chi], 8][l - m]))*
+                Subscript[\[Chi], 8][m] + 8*Subscript[\[Chi], 1][l - m]*(Subscript[\[Chi], 3][m] + 2*Subscript[\[Chi], 8][m])))/
              2 + ((-1 + d)*d*(d*(-1 + l) - 2*l)*l*(-2 + (-2 + d)*l)*
-              (d*(-1 + l) - 2*(1 + l))*(4*\[Tau][l - m]*\[Tau][m] + 3*
-                \[Gamma][l - m]*(\[Gamma][m] + 4*\[Tau][m])))/2 + 
+              (d*(-1 + l) - 2*(1 + l))*(4*Subscript[\[Chi], 8][l - m]*Subscript[\[Chi], 8][m] + 3*
+                Subscript[\[Chi], 3][l - m]*(Subscript[\[Chi], 3][m] + 4*Subscript[\[Chi], 8][m])))/2 + 
             2*(1 - d)*d*l*(d + 2*l - d*l)*(2 - (-2 + d)*m)*(d + 2*m - d*m)*
-             (-2*\[Tau][l - m]*\[Tau][m] - (\[Gamma][l - m]*(2*\[Beta][m] + 
-                 3*\[Gamma][m] + 8*\[Sigma][m] + 12*\[Tau][m]))/2) + 
+             (-2*Subscript[\[Chi], 8][l - m]*Subscript[\[Chi], 8][m] - (Subscript[\[Chi], 3][l - m]*(2*Subscript[\[Chi], 2][m] + 
+                 3*Subscript[\[Chi], 3][m] + 8*Subscript[\[Chi], 7][m] + 12*Subscript[\[Chi], 8][m]))/2) + 
             (-2 + d)*(-1 + d)*d*(d*(-1 + m) - 2*m)*(-1 + m)*m*
-             (-2 + (-2 + d)*m)*(2*\[Tau][l - m]*\[Tau][m] + (\[Gamma][l - m]*
-                (4*\[Beta][m] + 3*\[Gamma][m] + 16*\[Sigma][m] + 
-                 12*\[Tau][m]))/2) - 2*(2 - d)*d*l*(d + 2*l - d*l)*(l - m)*
-             (d + 2*l - d*l + (-2 + d)*m)*(2*\[Beta][l - m]*(\[Gamma][m] - 
-                d*\[Gamma][m] - 4*\[Tau][m]) + 4*\[Alpha][l - m]*\[Tau][m] - 
-              2*(-1 + d)*(2*(\[Mu][l - m] + \[Sigma][l - m]) + \[Tau][l - m])*
-               \[Tau][m] - (\[Gamma][l - m]*((-1 + d)*\[Gamma][m] + 
-                 4*(1 + d)*\[Tau][m]))/2)))/(d*l*(1 - m)*(1 - l + m)*
+             (-2 + (-2 + d)*m)*(2*Subscript[\[Chi], 8][l - m]*Subscript[\[Chi], 8][m] + (Subscript[\[Chi], 3][l - m]*
+                (4*Subscript[\[Chi], 2][m] + 3*Subscript[\[Chi], 3][m] + 16*Subscript[\[Chi], 7][m] + 
+                 12*Subscript[\[Chi], 8][m]))/2) - 2*(2 - d)*d*l*(d + 2*l - d*l)*(l - m)*
+             (d + 2*l - d*l + (-2 + d)*m)*(2*Subscript[\[Chi], 2][l - m]*(Subscript[\[Chi], 3][m] - 
+                d*Subscript[\[Chi], 3][m] - 4*Subscript[\[Chi], 8][m]) + 4*Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 8][m] - 
+              2*(-1 + d)*(2*(Subscript[\[Chi], 5][l - m] + Subscript[\[Chi], 7][l - m]) + Subscript[\[Chi], 8][l - m])*
+               Subscript[\[Chi], 8][m] - (Subscript[\[Chi], 3][l - m]*((-1 + d)*Subscript[\[Chi], 3][m] + 
+                 4*(1 + d)*Subscript[\[Chi], 8][m]))/2)))/(d*l*(1 - m)*(1 - l + m)*
            (2 - (-2 + d)*m)*(d + 2*l - d*l + (-2 + d)*m)*(d + 2*m - d*m)))/
         (8*(-1 + d)), {m, 2, -2 + l}] + 
       (4*(-2 + d)*(-1 + l)*((2 + d*(-2 + l) - 2*l)*
-          ((-2 + d)*\[Alpha][-1 + l] + 2*\[Beta][-1 + l] + \[Gamma][-1 + l] + 
-           2*(-2 + d)*\[Rho][-1 + l] + 4*\[Sigma][-1 + l]) - 
-         2*d*\[Tau][-1 + l]))/((-1 + d)*l*(2 + (-2 + d)*l)*
+          ((-2 + d)*Subscript[\[Chi], 1][-1 + l] + 2*Subscript[\[Chi], 2][-1 + l] + Subscript[\[Chi], 3][-1 + l] + 
+           2*(-2 + d)*Subscript[\[Chi], 6][-1 + l] + 4*Subscript[\[Chi], 7][-1 + l]) - 
+         2*d*Subscript[\[Chi], 8][-1 + l]))/((-1 + d)*l*(2 + (-2 + d)*l)*
         (-2 + 2*d + 2*l - d*l)), 
-     Sum[(((d + 2*l - d*l)*\[Gamma][l - m]*\[Gamma][m])/(2*(d*(-1 + m) - 2*m)*
+     Sum[(((d + 2*l - d*l)*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/(2*(d*(-1 + m) - 2*m)*
            (-2*l + d*(-1 + l - m) + 2*m)) + 
-         (2*((\[Alpha][m]*((-3 + 2*d)*l*\[Alpha][l - m] - ((-3 + d)*l + 2*m)*
-                 \[Beta][l - m] + (l - m + ((-1 + d)*(-1 + (-2 + d)*(l - m))*
-                    m)/(-2*l + d*(-1 + l - m) + 2*m))*\[Gamma][l - m]) + 
-              \[Alpha][l - m]*((l - d*l + 2*m)*\[Beta][m] + 
+         (2*((Subscript[\[Chi], 1][m]*((-3 + 2*d)*l*Subscript[\[Chi], 1][l - m] - ((-3 + d)*l + 2*m)*
+                 Subscript[\[Chi], 2][l - m] + (l - m + ((-1 + d)*(-1 + (-2 + d)*(l - m))*
+                    m)/(-2*l + d*(-1 + l - m) + 2*m))*Subscript[\[Chi], 3][l - m]) + 
+              Subscript[\[Chi], 1][l - m]*((l - d*l + 2*m)*Subscript[\[Chi], 2][m] + 
                 (m + ((-1 + d)*(l - m)*(-1 + (-2 + d)*m))/(d*(-1 + m) - 2*m))*
-                 \[Gamma][m]))/(2*(-1 + d)) + 2*m*\[Beta][l - m]*
-             \[Lambda][m] + (2*(-1 + (-2 + d)*(l - m))*m*\[Gamma][l - m]*
-              \[Rho][m])/(-2*l + d*(-1 + l - m) + 2*m) + 2*m*\[Alpha][l - m]*
-             (-\[Lambda][m] + \[Mu][m] + \[Rho][m] - \[Sigma][m])))/l + 
-         (m*\[Gamma][l - m]*(\[Alpha][m] + ((-3 + d)*(2*\[Beta][m] + \[Gamma][
-                m]))/2 + 4*(-1 + d)*(-\[Mu][m] + \[Sigma][m])))/
+                 Subscript[\[Chi], 3][m]))/(2*(-1 + d)) + 2*m*Subscript[\[Chi], 2][l - m]*
+             Subscript[\[Chi], 4][m] + (2*(-1 + (-2 + d)*(l - m))*m*Subscript[\[Chi], 3][l - m]*
+              Subscript[\[Chi], 6][m])/(-2*l + d*(-1 + l - m) + 2*m) + 2*m*Subscript[\[Chi], 1][l - m]*
+             (-Subscript[\[Chi], 4][m] + Subscript[\[Chi], 5][m] + Subscript[\[Chi], 6][m] - Subscript[\[Chi], 7][m])))/l + 
+         (m*Subscript[\[Chi], 3][l - m]*(Subscript[\[Chi], 1][m] + ((-3 + d)*(2*Subscript[\[Chi], 2][m] + Subscript[\[Chi], 3][
+                m]))/2 + 4*(-1 + d)*(-Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m])))/
           ((-1 + d)*l*(-2*l + d*(-1 + l - m) + 2*m)) + 
-         ((l - m)*(\[Gamma][l - m]*\[Gamma][m] + 2*\[Beta][l - m]*
-             (\[Gamma][m] - 4*\[Tau][m])))/(2*d*l*(-1 + m) - 4*l*m) + 
+         ((l - m)*(Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m] + 2*Subscript[\[Chi], 2][l - m]*
+             (Subscript[\[Chi], 3][m] - 4*Subscript[\[Chi], 8][m])))/(2*d*l*(-1 + m) - 4*l*m) + 
          ((l - m)*(-2*(-1 + d)*(d*(-1 + l) - 2*l)*(2 + (-2 + d)*l)*
-             \[Gamma][l - m]*\[Tau][m] + (-2 + d)*(d*(-1 + m) - 2*m)*m*
-             \[Gamma][l - m]*(-\[Alpha][m] + 2*\[Beta][m] + \[Gamma][m] + 
-              2*(-1 + d)*(2*(\[Mu][m] + \[Sigma][m]) + \[Tau][m])) + 
+             Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 8][m] + (-2 + d)*(d*(-1 + m) - 2*m)*m*
+             Subscript[\[Chi], 3][l - m]*(-Subscript[\[Chi], 1][m] + 2*Subscript[\[Chi], 2][m] + Subscript[\[Chi], 3][m] + 
+              2*(-1 + d)*(2*(Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m]) + Subscript[\[Chi], 8][m])) + 
             (-2*l + d*(-1 + l - m) + 2*m)*(2 + (-2 + d)*l - (-2 + d)*m)*
-             (\[Alpha][l - m]*\[Gamma][m] - (2*\[Beta][l - m] + 
-                \[Gamma][l - m])*(\[Gamma][m] - 2*(-1 + d)*\[Tau][m]))))/
+             (Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 3][m] - (2*Subscript[\[Chi], 2][l - m] + 
+                Subscript[\[Chi], 3][l - m])*(Subscript[\[Chi], 3][m] - 2*(-1 + d)*Subscript[\[Chi], 8][m]))))/
           ((-1 + d)*l*(2 + (-2 + d)*l)*(d*(-1 + m) - 2*m)*
            (-2*l + d*(-1 + l - m) + 2*m)))/4, {m, 2, -2 + l}] + 
-      ((2*(-3 + 2*d)*l*\[Alpha][-1 + l])/(-1 + d) - 
-        (2*(2 + (-3 + d)*l)*\[Beta][-1 + l])/(-1 + d) + 
-        ((-2 + d + (-1 + d)^2/(2 + d*(-2 + l) - 2*l) + l)*\[Gamma][-1 + l])/
-         (-1 + d) + (d*\[Gamma][-1 + l])/((-1 + d)*(2 + d*(-2 + l) - 2*l)*
+      ((2*(-3 + 2*d)*l*Subscript[\[Chi], 1][-1 + l])/(-1 + d) - 
+        (2*(2 + (-3 + d)*l)*Subscript[\[Chi], 2][-1 + l])/(-1 + d) + 
+        ((-2 + d + (-1 + d)^2/(2 + d*(-2 + l) - 2*l) + l)*Subscript[\[Chi], 3][-1 + l])/
+         (-1 + d) + (d*Subscript[\[Chi], 3][-1 + l])/((-1 + d)*(2 + d*(-2 + l) - 2*l)*
           (2 + (-2 + d)*l)) + ((-6 + (9 - 2*d)*d + 18*l - d*(23 + (-8 + d)*d)*
-            l + (-4 + d)*(-2 + d)^2*l^2 + (-2 + d)^2*l^3)*\[Gamma][-1 + l])/
+            l + (-4 + d)*(-2 + d)^2*l^2 + (-2 + d)^2*l^3)*Subscript[\[Chi], 3][-1 + l])/
          ((-1 + d)*(2 + d*(-2 + l) - 2*l)*(2 + (-2 + d)*l)) + 
-        4*(-1 + l)*(-\[Lambda][-1 + l] + \[Mu][-1 + l] + \[Rho][-1 + l] - 
-          \[Sigma][-1 + l]))/l, 
-     Sum[(((d + 2*l - d*l)*\[Gamma][l - m]*\[Gamma][m])/(2*(d*(-1 + m) - 2*m)*
-           (-2*l + d*(-1 + l - m) + 2*m)) + (m*\[Gamma][l - m]*
-           (\[Alpha][m] + ((-3 + d)*(2*\[Beta][m] + \[Gamma][m]))/2 + 
-            4*(-1 + d)*(-\[Mu][m] + \[Sigma][m])))/((-1 + d)*l*
+        4*(-1 + l)*(-Subscript[\[Chi], 4][-1 + l] + Subscript[\[Chi], 5][-1 + l] + Subscript[\[Chi], 6][-1 + l] - 
+          Subscript[\[Chi], 7][-1 + l]))/l, 
+     Sum[(((d + 2*l - d*l)*Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m])/(2*(d*(-1 + m) - 2*m)*
+           (-2*l + d*(-1 + l - m) + 2*m)) + (m*Subscript[\[Chi], 3][l - m]*
+           (Subscript[\[Chi], 1][m] + ((-3 + d)*(2*Subscript[\[Chi], 2][m] + Subscript[\[Chi], 3][m]))/2 + 
+            4*(-1 + d)*(-Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m])))/((-1 + d)*l*
            (-2*l + d*(-1 + l - m) + 2*m)) + 
-         ((l - m)*(\[Gamma][l - m]*\[Gamma][m] + 2*\[Beta][l - m]*
-             (\[Gamma][m] - 4*\[Tau][m])))/(2*d*l*(-1 + m) - 4*l*m) + 
+         ((l - m)*(Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 3][m] + 2*Subscript[\[Chi], 2][l - m]*
+             (Subscript[\[Chi], 3][m] - 4*Subscript[\[Chi], 8][m])))/(2*d*l*(-1 + m) - 4*l*m) + 
          ((l - m)*(-2*(-1 + d)*(d*(-1 + l) - 2*l)*(2 + (-2 + d)*l)*
-             \[Gamma][l - m]*\[Tau][m] + (-2 + d)*(d*(-1 + m) - 2*m)*m*
-             \[Gamma][l - m]*(-\[Alpha][m] + 2*\[Beta][m] + \[Gamma][m] + 
-              2*(-1 + d)*(2*(\[Mu][m] + \[Sigma][m]) + \[Tau][m])) + 
+             Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 8][m] + (-2 + d)*(d*(-1 + m) - 2*m)*m*
+             Subscript[\[Chi], 3][l - m]*(-Subscript[\[Chi], 1][m] + 2*Subscript[\[Chi], 2][m] + Subscript[\[Chi], 3][m] + 
+              2*(-1 + d)*(2*(Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m]) + Subscript[\[Chi], 8][m])) + 
             (-2*l + d*(-1 + l - m) + 2*m)*(2 + (-2 + d)*l - (-2 + d)*m)*
-             (\[Alpha][l - m]*\[Gamma][m] - (2*\[Beta][l - m] + 
-                \[Gamma][l - m])*(\[Gamma][m] - 2*(-1 + d)*\[Tau][m]))))/
+             (Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 3][m] - (2*Subscript[\[Chi], 2][l - m] + 
+                Subscript[\[Chi], 3][l - m])*(Subscript[\[Chi], 3][m] - 2*(-1 + d)*Subscript[\[Chi], 8][m]))))/
           ((-1 + d)*l*(2 + (-2 + d)*l)*(d*(-1 + m) - 2*m)*
            (-2*l + d*(-1 + l - m) + 2*m)) + 
-         (2*d^2*(l - m)*\[Beta][l - m]*\[Beta][m] + 4*d*(l - m)^2*
-            \[Beta][l - m]*\[Beta][m] - 2*d^2*(l - m)^2*\[Beta][l - m]*
-            \[Beta][m] + 2*d^2*m*\[Beta][l - m]*\[Beta][m] + 
-           8*d*(l - m)*m*\[Beta][l - m]*\[Beta][m] + 8*(l - m)^2*m*
-            \[Beta][l - m]*\[Beta][m] - 8*d*(l - m)^2*m*\[Beta][l - m]*
-            \[Beta][m] + 2*d^2*(l - m)^2*m*\[Beta][l - m]*\[Beta][m] + 
-           4*d*m^2*\[Beta][l - m]*\[Beta][m] - 2*d^2*m^2*\[Beta][l - m]*
-            \[Beta][m] + 8*(l - m)*m^2*\[Beta][l - m]*\[Beta][m] + 
-           2*d^2*(l - m)*m^2*\[Beta][l - m]*\[Beta][m] + 4*d^2*m*(-l + m)*
-            \[Beta][l - m]*\[Beta][m] + 8*d*m^2*(-l + m)*\[Beta][l - m]*
-            \[Beta][m] + (d*(-1 + m) - 2*m)*\[Alpha][m]*
-            (l*(-2*l + d*(-1 + l - m) + 2*m)*(\[Alpha][l - m] - \[Beta][
-                l - m]) + (-1 + (-2 + d)*(l - m))*m*\[Gamma][l - m]) + 
-           d^2*(l - m)*\[Beta][l - m]*\[Gamma][m] - 4*(l - m)^2*
-            \[Beta][l - m]*\[Gamma][m] + 4*d*(l - m)^2*\[Beta][l - m]*
-            \[Gamma][m] - d^2*(l - m)^2*\[Beta][l - m]*\[Gamma][m] + 
-           d^2*m*\[Beta][l - m]*\[Gamma][m] - 4*(l - m)^2*m*\[Beta][l - m]*
-            \[Gamma][m] + 4*d*(l - m)^2*m*\[Beta][l - m]*\[Gamma][m] - 
-           d^2*(l - m)^2*m*\[Beta][l - m]*\[Gamma][m] + 
-           2*d*m^2*\[Beta][l - m]*\[Gamma][m] - d^2*m^2*\[Beta][l - m]*
-            \[Gamma][m] + 4*(l - m)*m^2*\[Beta][l - m]*\[Gamma][m] + 
-           d^2*(l - m)*m^2*\[Beta][l - m]*\[Gamma][m] + 2*d*(-l + m)*
-            \[Beta][l - m]*\[Gamma][m] + 4*d*m^2*(-l + m)*\[Beta][l - m]*
-            \[Gamma][m] + \[Gamma][l - m]*((d*(-1 + m) - 2*m)*
+         (2*d^2*(l - m)*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] + 4*d*(l - m)^2*
+            Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] - 2*d^2*(l - m)^2*Subscript[\[Chi], 2][l - m]*
+            Subscript[\[Chi], 2][m] + 2*d^2*m*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] + 
+           8*d*(l - m)*m*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] + 8*(l - m)^2*m*
+            Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] - 8*d*(l - m)^2*m*Subscript[\[Chi], 2][l - m]*
+            Subscript[\[Chi], 2][m] + 2*d^2*(l - m)^2*m*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] + 
+           4*d*m^2*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] - 2*d^2*m^2*Subscript[\[Chi], 2][l - m]*
+            Subscript[\[Chi], 2][m] + 8*(l - m)*m^2*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] + 
+           2*d^2*(l - m)*m^2*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] + 4*d^2*m*(-l + m)*
+            Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 2][m] + 8*d*m^2*(-l + m)*Subscript[\[Chi], 2][l - m]*
+            Subscript[\[Chi], 2][m] + (d*(-1 + m) - 2*m)*Subscript[\[Chi], 1][m]*
+            (l*(-2*l + d*(-1 + l - m) + 2*m)*(Subscript[\[Chi], 1][l - m] - Subscript[\[Chi], 2][
+                l - m]) + (-1 + (-2 + d)*(l - m))*m*Subscript[\[Chi], 3][l - m]) + 
+           d^2*(l - m)*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] - 4*(l - m)^2*
+            Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] + 4*d*(l - m)^2*Subscript[\[Chi], 2][l - m]*
+            Subscript[\[Chi], 3][m] - d^2*(l - m)^2*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] + 
+           d^2*m*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] - 4*(l - m)^2*m*Subscript[\[Chi], 2][l - m]*
+            Subscript[\[Chi], 3][m] + 4*d*(l - m)^2*m*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] - 
+           d^2*(l - m)^2*m*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] + 
+           2*d*m^2*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] - d^2*m^2*Subscript[\[Chi], 2][l - m]*
+            Subscript[\[Chi], 3][m] + 4*(l - m)*m^2*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] + 
+           d^2*(l - m)*m^2*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] + 2*d*(-l + m)*
+            Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] + 4*d*m^2*(-l + m)*Subscript[\[Chi], 2][l - m]*
+            Subscript[\[Chi], 3][m] + Subscript[\[Chi], 3][l - m]*((d*(-1 + m) - 2*m)*
               ((d*(-1 + l) - 2*l)*l + (2 - 3*(-2 + d)*l)*m + 2*(-2 + d)*m^2)*
-              \[Beta][m] + 2*(-2 + d)*(-1 + d)*(l - m)*m*\[Gamma][m]) + 
-           (-2*l + d*(-1 + l - m) + 2*m)*\[Alpha][l - m]*
-            (l*(d + 2*m - d*m)*\[Beta][m] + (l - m)*(-1 + (-2 + d)*m)*
-              \[Gamma][m]) + 4*m*((-1 + d)*(d*(-1 + m) - 2*m)*
-              (-2*l + d*(-1 + l - m) + 2*m)*\[Beta][l - m]*\[Mu][m] + 
-             (-d + (-2 + d)*(l - m))*(d*(-1 + m) - 2*m)*\[Alpha][l - m]*
-              (\[Rho][m] - \[Sigma][m]) + \[Gamma][l - m]*((d*(-1 + m) - 2*m)*
-                ((-1 + (-2 + d)*(l - m))*\[Rho][m] - (-2 + d)*(1 + l - m)*
-                  \[Sigma][m]) + (-2 + d)*(-1 + d)*(l - m)*\[Tau][m])))/
+              Subscript[\[Chi], 2][m] + 2*(-2 + d)*(-1 + d)*(l - m)*m*Subscript[\[Chi], 3][m]) + 
+           (-2*l + d*(-1 + l - m) + 2*m)*Subscript[\[Chi], 1][l - m]*
+            (l*(d + 2*m - d*m)*Subscript[\[Chi], 2][m] + (l - m)*(-1 + (-2 + d)*m)*
+              Subscript[\[Chi], 3][m]) + 4*m*((-1 + d)*(d*(-1 + m) - 2*m)*
+              (-2*l + d*(-1 + l - m) + 2*m)*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 5][m] + 
+             (-d + (-2 + d)*(l - m))*(d*(-1 + m) - 2*m)*Subscript[\[Chi], 1][l - m]*
+              (Subscript[\[Chi], 6][m] - Subscript[\[Chi], 7][m]) + Subscript[\[Chi], 3][l - m]*((d*(-1 + m) - 2*m)*
+                ((-1 + (-2 + d)*(l - m))*Subscript[\[Chi], 6][m] - (-2 + d)*(1 + l - m)*
+                  Subscript[\[Chi], 7][m]) + (-2 + d)*(-1 + d)*(l - m)*Subscript[\[Chi], 8][m])))/
           ((-1 + d)*l*(d + 2*l - d*l + (-2 + d)*m)*(d + 2*m - d*m)))/4, 
        {m, 2, -2 + l}] + 
-      (2*(-((2 + d*(-2 + l) - 2*l)*l*(\[Alpha][-1 + l] - \[Beta][-1 + l])) - 
-         ((-2 + d)*(-1 + l)*(1 + (-2 + d)*l)*\[Gamma][-1 + l])/
+      (2*(-((2 + d*(-2 + l) - 2*l)*l*(Subscript[\[Chi], 1][-1 + l] - Subscript[\[Chi], 2][-1 + l])) - 
+         ((-2 + d)*(-1 + l)*(1 + (-2 + d)*l)*Subscript[\[Chi], 3][-1 + l])/
           (2 + (-2 + d)*l) + 2*(2 + d*(-2 + l) - 2*l)*(-1 + l)*
-          (-\[Rho][-1 + l] + \[Sigma][-1 + l])))/
+          (-Subscript[\[Chi], 6][-1 + l] + Subscript[\[Chi], 7][-1 + l])))/
        ((-1 + d)*l*(-2 + 2*d + 2*l - d*l)), 
-     Sum[(\[Alpha][m]*(-\[Alpha][l - m] + \[Beta][l - m]) + 
-         \[Alpha][l - m]*\[Beta][m] + (4*m*(\[Beta][l - m]*\[Rho][m] + 
-            \[Alpha][l - m]*(-\[Rho][m] + \[Sigma][m])))/l + 
+     Sum[(Subscript[\[Chi], 1][m]*(-Subscript[\[Chi], 1][l - m] + Subscript[\[Chi], 2][l - m]) + 
+         Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 2][m] + (4*m*(Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 6][m] + 
+            Subscript[\[Chi], 1][l - m]*(-Subscript[\[Chi], 6][m] + Subscript[\[Chi], 7][m])))/l + 
          ((l - m)*(-2*(-1 + d)*(d*(-1 + l) - 2*l)*(2 + (-2 + d)*l)*
-             \[Gamma][l - m]*\[Tau][m] + (-2 + d)*(d*(-1 + m) - 2*m)*m*
-             \[Gamma][l - m]*(-\[Alpha][m] + 2*\[Beta][m] + \[Gamma][m] + 
-              2*(-1 + d)*(2*(\[Mu][m] + \[Sigma][m]) + \[Tau][m])) + 
+             Subscript[\[Chi], 3][l - m]*Subscript[\[Chi], 8][m] + (-2 + d)*(d*(-1 + m) - 2*m)*m*
+             Subscript[\[Chi], 3][l - m]*(-Subscript[\[Chi], 1][m] + 2*Subscript[\[Chi], 2][m] + Subscript[\[Chi], 3][m] + 
+              2*(-1 + d)*(2*(Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m]) + Subscript[\[Chi], 8][m])) + 
             (-2*l + d*(-1 + l - m) + 2*m)*(2 + (-2 + d)*l - (-2 + d)*m)*
-             (\[Alpha][l - m]*\[Gamma][m] - (2*\[Beta][l - m] + 
-                \[Gamma][l - m])*(\[Gamma][m] - 2*(-1 + d)*\[Tau][m]))))/
+             (Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 3][m] - (2*Subscript[\[Chi], 2][l - m] + 
+                Subscript[\[Chi], 3][l - m])*(Subscript[\[Chi], 3][m] - 2*(-1 + d)*Subscript[\[Chi], 8][m]))))/
           ((-1 + d)*l*(2 + (-2 + d)*l)*(d*(-1 + m) - 2*m)*
            (-2*l + d*(-1 + l - m) + 2*m)) - 
-         ((l - m)*(-2*l + d*(-1 + l - m) + 2*m)*(\[Alpha][l - m] + 
-             (-3 + d)*\[Beta][l - m])*\[Gamma][m] + \[Gamma][l - m]*
-            ((-1 + d)*(d*(-1 + m) - 2*m)*m*\[Beta][m] - 
-             (l - m)*(-d - 2*l + d*l + (-2 + d)^2*m)*\[Gamma][m]) + 
-           4*(-1 + d)*((-d + (-2 + d)*(l - m))*(l - m)*\[Beta][l - m]*
-              \[Tau][m] + m*\[Gamma][l - m]*((d*(-1 + m) - 2*m)*\[Sigma][m] + 
-               (-2 + d)*(-l + m)*\[Tau][m])))/((-1 + d)*l*(d*(-1 + m) - 2*m)*
+         ((l - m)*(-2*l + d*(-1 + l - m) + 2*m)*(Subscript[\[Chi], 1][l - m] + 
+             (-3 + d)*Subscript[\[Chi], 2][l - m])*Subscript[\[Chi], 3][m] + Subscript[\[Chi], 3][l - m]*
+            ((-1 + d)*(d*(-1 + m) - 2*m)*m*Subscript[\[Chi], 2][m] - 
+             (l - m)*(-d - 2*l + d*l + (-2 + d)^2*m)*Subscript[\[Chi], 3][m]) + 
+           4*(-1 + d)*((-d + (-2 + d)*(l - m))*(l - m)*Subscript[\[Chi], 2][l - m]*
+              Subscript[\[Chi], 8][m] + m*Subscript[\[Chi], 3][l - m]*((d*(-1 + m) - 2*m)*Subscript[\[Chi], 7][m] + 
+               (-2 + d)*(-l + m)*Subscript[\[Chi], 8][m])))/((-1 + d)*l*(d*(-1 + m) - 2*m)*
            (-2*l + d*(-1 + l - m) + 2*m)))/4, {m, 2, -2 + l}] + 
-      2*(-\[Alpha][-1 + l] + \[Beta][-1 + l] + 
-        ((-1 + l)*(-(((-2 + d)*\[Gamma][-1 + l])/((-1 + d)*(2 + d*(-2 + l) - 
-               2*l)*(2 + (-2 + d)*l))) - 2*\[Rho][-1 + l] + 
-           2*\[Sigma][-1 + l]))/l), 
-     Sum[(((d*(-1 + m) - 2*m)*\[Beta][m]*((-1 + d)*l*(2 + (-2 + d)*l)*
-              (-2*l + d*(-1 + l - m) + 2*m)*\[Beta][l - m] - 
-             m*(-2 + 6*l + (-5 + d)*d*l - 4*m + 2*d*(1 + m))*\[Gamma][l - 
+      2*(-Subscript[\[Chi], 1][-1 + l] + Subscript[\[Chi], 2][-1 + l] + 
+        ((-1 + l)*(-(((-2 + d)*Subscript[\[Chi], 3][-1 + l])/((-1 + d)*(2 + d*(-2 + l) - 
+               2*l)*(2 + (-2 + d)*l))) - 2*Subscript[\[Chi], 6][-1 + l] + 
+           2*Subscript[\[Chi], 7][-1 + l]))/l), 
+     Sum[(((d*(-1 + m) - 2*m)*Subscript[\[Chi], 2][m]*((-1 + d)*l*(2 + (-2 + d)*l)*
+              (-2*l + d*(-1 + l - m) + 2*m)*Subscript[\[Chi], 2][l - m] - 
+             m*(-2 + 6*l + (-5 + d)*d*l - 4*m + 2*d*(1 + m))*Subscript[\[Chi], 3][l - 
                 m]) + (l - m)*((-2 + d)*m*(d + 2*l - d*l + (-2 + d)*m)*
-              \[Alpha][l - m]*\[Gamma][m] - (-2*l + d*(-1 + l - m) + 2*m)*
-              ((-1 + d)*(2 + (-2 + d)*l) - 2*(-2 + d)*m)*\[Beta][l - m]*
-              \[Gamma][m] + (-2 + d)*m*\[Gamma][l - m]*((d + 2*m - d*m)*
-                \[Alpha][m] + (-2 + (-2 + d)*d*l)*\[Gamma][m])))/
-          (2*(-1 + d)) + 2*m*((-2*l + d*(-1 + l - m) + 2*m)*\[Beta][l - m]*
-            ((2 + (-2 + d)*l)*(d*(-1 + m) - 2*m)*\[Sigma][m] - 
-             (-2 + d)*(l - m)*\[Tau][m]) + \[Gamma][l - m]*
-            ((d*(-1 + m) - 2*m)*((-2 + d)*(l - m)*\[Mu][m] - (2 + (-2 + d)*m)*
-                \[Sigma][m]) + (-2 + d)*(l - m)*(1 + (-2 + d)*m)*\[Tau][m])))/
+              Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 3][m] - (-2*l + d*(-1 + l - m) + 2*m)*
+              ((-1 + d)*(2 + (-2 + d)*l) - 2*(-2 + d)*m)*Subscript[\[Chi], 2][l - m]*
+              Subscript[\[Chi], 3][m] + (-2 + d)*m*Subscript[\[Chi], 3][l - m]*((d + 2*m - d*m)*
+                Subscript[\[Chi], 1][m] + (-2 + (-2 + d)*d*l)*Subscript[\[Chi], 3][m])))/
+          (2*(-1 + d)) + 2*m*((-2*l + d*(-1 + l - m) + 2*m)*Subscript[\[Chi], 2][l - m]*
+            ((2 + (-2 + d)*l)*(d*(-1 + m) - 2*m)*Subscript[\[Chi], 7][m] - 
+             (-2 + d)*(l - m)*Subscript[\[Chi], 8][m]) + Subscript[\[Chi], 3][l - m]*
+            ((d*(-1 + m) - 2*m)*((-2 + d)*(l - m)*Subscript[\[Chi], 5][m] - (2 + (-2 + d)*m)*
+                Subscript[\[Chi], 7][m]) + (-2 + d)*(l - m)*(1 + (-2 + d)*m)*Subscript[\[Chi], 8][m])))/
         (2*l*(2 + (-2 + d)*l)*(d*(-1 + m) - 2*m)*(-2*l + d*(-1 + l - m) + 
-          2*m)), {m, 2, -2 + l}] - (2*(-2 + d)*(-1 + l)*\[Gamma][-1 + l])/
+          2*m)), {m, 2, -2 + l}] - (2*(-2 + d)*(-1 + l)*Subscript[\[Chi], 3][-1 + l])/
        ((-1 + d)*(2 + d*(-2 + l) - 2*l)*l*(2 + (-2 + d)*l)), 
      Sum[((d*(-1 + l) - 2*l)*((-((-2 + d)*(l - m)*m*(-2*l + d*(-1 + l - m) + 
-               2*m)*\[Alpha][l - m]*\[Gamma][m]) + 
+               2*m)*Subscript[\[Chi], 1][l - m]*Subscript[\[Chi], 3][m]) + 
             m*(d + 2*l - d*l + (-2 + d)*m)*(2*(1 + l - 2*m) + 
-              d*(-2 + l - d*l + 2*m))*\[Beta][l - m]*\[Gamma][m] + 
-            \[Gamma][l - m]*((-2 + d)*(d*(-1 + m) - 2*m)*m*(-l + m)*\[Alpha][
+              d*(-2 + l - d*l + 2*m))*Subscript[\[Chi], 2][l - m]*Subscript[\[Chi], 3][m] + 
+            Subscript[\[Chi], 3][l - m]*((-2 + d)*(d*(-1 + m) - 2*m)*m*(-l + m)*Subscript[\[Chi], 1][
                 m] + (l - m)*(-d + (-2 + d)*m)*((-1 + d)*(2 + (-2 + d)*l) + 
-                2*(-2 + d)*m)*\[Beta][m] + (-((-1 + d)*l*(2 + (-2 + d)*l)) + 
+                2*(-2 + d)*m)*Subscript[\[Chi], 2][m] + (-((-1 + d)*l*(2 + (-2 + d)*l)) + 
                 (-2 + d)*l*(-2 + (-2 + d)*d*l)*m - (-2 + d)*(-2 + (-2 + d)*d*
-                   l)*m^2)*\[Gamma][m]))/(2*(-1 + d)) + 
-          2*m*((-d + (-2 + d)*(l - m))*(2 + (-2 + d)*m)*\[Beta][l - m]*
-             \[Tau][m] + \[Gamma][l - m]*(-2*\[Tau][m] + (-2 + d)*(
-                (d*(-1 + m) - 2*m)*(l - m)*(\[Mu][m] + \[Sigma][m]) + 
-                (-1 + (-2 + d)*(l - m))*m*\[Tau][m])))))/
+                   l)*m^2)*Subscript[\[Chi], 3][m]))/(2*(-1 + d)) + 
+          2*m*((-d + (-2 + d)*(l - m))*(2 + (-2 + d)*m)*Subscript[\[Chi], 2][l - m]*
+             Subscript[\[Chi], 8][m] + Subscript[\[Chi], 3][l - m]*(-2*Subscript[\[Chi], 8][m] + (-2 + d)*(
+                (d*(-1 + m) - 2*m)*(l - m)*(Subscript[\[Chi], 5][m] + Subscript[\[Chi], 7][m]) + 
+                (-1 + (-2 + d)*(l - m))*m*Subscript[\[Chi], 8][m])))))/
         (2*l*(2 + (-2 + d)*l)*(d*(-1 + m) - 2*m)*(-2*l + d*(-1 + l - m) + 
           2*m)), {m, 2, -2 + l}] - (2*(-2 + d)*(d*(-1 + l) - 2*l)*(-1 + l)*
-        \[Gamma][-1 + l])/((-1 + d)*(2 + d*(-2 + l) - 2*l)*l*
+        Subscript[\[Chi], 3][-1 + l])/((-1 + d)*(2 + d*(-2 + l) - 2*l)*l*
         (2 + (-2 + d)*l))}
- 
-\[Alpha][l_] = Subscript[\[Chi], 1][l]
- 
-\[Beta][l_] = Subscript[\[Chi], 2][l]
- 
-\[Gamma][l_] = Subscript[\[Chi], 3][l]
- 
-\[Lambda][l_] = Subscript[\[Chi], 4][l]
- 
-\[Rho][l_] = Subscript[\[Chi], 6][l]
- 
-\[Mu][l_] = Subscript[\[Chi], 5][l]
- 
-\[Sigma][l_] = Subscript[\[Chi], 7][l]
- 
-\[Tau][l_] = Subscript[\[Chi], 8][l]
